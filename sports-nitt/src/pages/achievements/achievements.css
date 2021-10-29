@@ -1,4 +1,12 @@
-
+.container{
+    background-color: black;
+    display: block;
+}
+.image{
+    max-width: 40vw;
+    max-height: 37vw;
+    padding:3vw;
+}
 .title{
   font-size:35px;
   font-weight: 800;
@@ -16,4 +24,5 @@
     font-weight: 200;
     color:rgb(182, 180, 180);
     font-family: 'Segoe UI';
+    padding-bottom:2vw;
 }

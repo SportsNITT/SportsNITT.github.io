@@ -3,7 +3,7 @@
     "achivements": [ {
         "id": 1,
         "title":"achv1",
-        "src": "https://picsum.photos/",
+        "src": "https://picsum.photos/id/1/1000/1000",
         "altText": "Slide 1",
         "desc":"desc1",
         "content":"content1"
@@ -11,7 +11,7 @@
       {
         "id": 2,
         "title":"achv2",
-        "src": "https://picsum.photos/",
+        "src": "https://picsum.photos/id/5/1000/1000",
        "altText": "Slide 2",
         "desc":"desc2",
         "content":"content2"
@@ -19,7 +19,7 @@
       {
         "id": 3,
         "title":"achv3",
-        "src": "https://picsum.photos/",
+        "src": "https://picsum.photos/id/10/1000/1000",
        "altText": "Slide 3",
         "desc":"desc3",
         "content":"content3"

@@ -5,8 +5,8 @@ import {
   CarouselControl,
   CarouselIndicators,
 } from 'reactstrap';
-import './achv.css';
-import achievements from '../../data/achv.json';
+import './achievements.css';
+import achievements from '../../data/achievements.json';
 
 function Achievements() {
   const achvms= achievements.achivements;
@@ -32,48 +32,38 @@ function Achievements() {
 
   const cards = achvms.map((item) => {
     return (
+      
       <CarouselItem
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
         key={item.id}
-       
       >
-        <div style={{backgroundColor:"black", display:"block"}}>
-        <img src={item.src} alt={item.altText} />
+    
+    <div style={{backgroundColor:"black", display:"block"}}>
+        <img src={item.src} alt={item.altText} className="image"/>
         <h1 className="title">{item.title}</h1>
         <p className="desc">{item.desc} </p>
         <p className="content">{item.content}</p>
         </div>
-      
+
       </CarouselItem>
     );
   });
 
   return (
-    <Carousel
-      activeIndex={activeIndex}
-      next={next}
-      previous={previous}
-      
-    >
-      <CarouselIndicators items={achvms} activeIndex={activeIndex} onClickHandler={goToIndex} />
-      {cards}
-      <CarouselControl  direction="prev" directionText="Previous" onClickHandler={previous} />
-      <CarouselControl  direction="next" directionText="Next" onClickHandler={next} />
-    </Carousel>
+             <Carousel
+              activeIndex={activeIndex}
+              next={next}
+              previous={previous}
+              
+            >
+              <CarouselIndicators items={achvms} activeIndex={activeIndex} onClickHandler={goToIndex} />
+              {cards}
+              <CarouselControl  direction="prev" directionText="Previous" onClickHandler={previous} />
+              <CarouselControl  direction="next" directionText="Next" onClickHandler={next} />
+            </Carousel>
+          
   );
 }
 
 export default Achievements;
-
-
-
-
-  
-
-
-
-
-
-
-
