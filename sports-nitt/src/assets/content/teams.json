@@ -1,32 +1,43 @@
 [
 	{
 		"teamName": "Football",
-		"captainName": "Lionel Messi",
+		"captainNames": ["Lionel Messi"],
 		"teamImgUrl": "https://images.saymedia-content.com/.image/t_share/MTc0MjUwOTUwNjYyMzAxNTY0/top-10-best-football-teams-of-all-time.jpg",
-		"capImgUrl": "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+		"capImgUrls": [
+			"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+		]
+	},
+	{
+		"teamName": "badminton",
+		"captainNames": ["Pullela Gopichand", "PV Sindhu"],
+		"teamImgUrl": "https://www.insidesport.co/wp-content/uploads/2020/05/bwf-india.jpg",
+		"capImgUrls": [
+			"https://www.thehindubusinessline.com/news/sports/ufmwt7/article29460719.ece/alternates/FREE_355/Pullela-Gopichand",
+			"https://images.news18.com/ibnlive/uploads/2021/08/1627914698_sindhu-1600x1200.jpg"
+		]
 	},
 	{
 		"teamName": "Football",
-		"captainName": "Lionel Messi",
+		"captainNames": ["Lionel Messi"],
 		"teamImgUrl": "https://images.saymedia-content.com/.image/t_share/MTc0MjUwOTUwNjYyMzAxNTY0/top-10-best-football-teams-of-all-time.jpg",
-		"capImgUrl": "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+		"capImgUrls": [
+			"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+		]
 	},
 	{
 		"teamName": "Football",
-		"captainName": "Lionel Messi",
+		"captainNames": ["Lionel Messi"],
 		"teamImgUrl": "https://images.saymedia-content.com/.image/t_share/MTc0MjUwOTUwNjYyMzAxNTY0/top-10-best-football-teams-of-all-time.jpg",
-		"capImgUrl": "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+		"capImgUrls": [
+			"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+		]
 	},
 	{
 		"teamName": "Football",
-		"captainName": "Lionel Messi",
+		"captainNames": ["Lionel Messi"],
 		"teamImgUrl": "https://images.saymedia-content.com/.image/t_share/MTc0MjUwOTUwNjYyMzAxNTY0/top-10-best-football-teams-of-all-time.jpg",
-		"capImgUrl": "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
-	},
-	{
-		"teamName": "Football",
-		"captainName": "Lionel Messi",
-		"teamImgUrl": "https://images.saymedia-content.com/.image/t_share/MTc0MjUwOTUwNjYyMzAxNTY0/top-10-best-football-teams-of-all-time.jpg",
-		"capImgUrl": "https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+		"capImgUrls": [
+			"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+		]
 	}
 ]

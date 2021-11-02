@@ -17,8 +17,18 @@ const TeamCard = ({ data }) => (
 		>
 			<h4 class="team">{data.teamName}</h4>
 		</div>
-		<img src={data.capImgUrl} alt="captain-img" class="profile-img" />
-		<h1 class="name">{data.captainName}</h1>
+		<div className="img-container">
+			<div className="profile">
+				<img src={data.capImgUrls[0]} alt="captain-img" class="profile-img" />
+				<p class="name">{data.captainNames[0]}</p>
+			</div>
+			{data.captainNames[1] && (
+				<div className="profile">
+					<img src={data.capImgUrls[1]} alt="captain-img" class="profile-img" />
+					<p class="name">{data.captainNames[1]}</p>
+				</div>
+			)}
+		</div>
 	</div>
 );
 
