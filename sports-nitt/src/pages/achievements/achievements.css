@@ -2,11 +2,7 @@
     background-color: black;
     display: block;
 }
-.image{
-    max-width: 40vw;
-    max-height: 37vw;
-    padding:3vw;
-}
+
 .title{
   font-size:35px;
   font-weight: 800;
@@ -25,4 +21,12 @@
     color:rgb(182, 180, 180);
     font-family: 'Segoe UI';
     padding-bottom:2vw;
+}
+
+.image-achv{
+    height: 500px;
+}
+
+.carousel-wrapper{
+    padding: 20px;
 }

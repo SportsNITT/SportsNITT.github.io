@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
 import achievements from '../../data/achievements.json';
 import '../achievements/cards.css';
-const achvms= achievements.achivements;
+const achvms= achievements.achievements;
 
 
 export default function ResponsiveGrid() {
