@@ -1,10 +1,10 @@
 import './App.css';
-import Achievements from './pages/achievements/achievements';
-
+import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      <Achievements/>
+      <Navbar/>
+     main page
     </div>
   );
 }

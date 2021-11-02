@@ -4,11 +4,13 @@ import achievementsData from '../../data/achievements.json';
 import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import ResponsiveGrid from './cards';
+import NavbarMain from '../../components/Navbar';
 
 function Achievements() {
   console.log(achievementsData['achievements'],"yeys")
   return (
     <div>
+      <NavbarMain/>
     <div className="carousel-wrapper">
       <Carousel showArrows={true} dynamicHeight={false}>
 
