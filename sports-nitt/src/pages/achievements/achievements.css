@@ -1,0 +1,32 @@
+.container{
+    background-color: black;
+    display: block;
+}
+
+.title{
+  font-size:35px;
+  font-weight: 800;
+    color:rgb(65, 65, 65);
+    font-family: 'Segoe UI';
+}
+.desc{
+    font-size: 30px;
+    font-weight: 500;
+    color:rgb(109, 108, 108);
+    font-family: 'Segoe UI';
+}
+.content{
+    font-size:20px;
+    font-weight: 200;
+    color:rgb(182, 180, 180);
+    font-family: 'Segoe UI';
+    padding-bottom:2vw;
+}
+
+.image-achv{
+    height: 500px;
+}
+
+.carousel-wrapper{
+    padding: 20px;
+}
