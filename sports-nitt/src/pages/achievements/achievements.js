@@ -16,9 +16,9 @@ function Achievements() {
 
       {achievementsData['achievements'].map((achv) => {
         return (
-          <div className="image-achv">
+          <div className="image-achv" >
             <img src= {achv.src} />
-            <p className="legend">{achv.content}</p>
+            <p className="legend" style={{overflow:"scroll"}}>{achv.content}</p>
           </div>
         )
       })}
