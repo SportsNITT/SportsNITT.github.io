@@ -11,9 +11,9 @@ export default function NavbarMain() {
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
       <Navbar.Collapse id="basic-navbar-nav" >
         <Nav className="me-auto" style={{display:"flex", justifyContent:"space-around"}}>
-          <Nav.Link href="/" style={{color:"white", paddingInline:50}}>home</Nav.Link>
-          <Nav.Link href="/achievements" style={{color:"white"}}>achievements</Nav.Link>
-         
+          <Nav.Link href="/" style={{color:"white", paddingInline:50}}>Home</Nav.Link>
+          <Nav.Link href="/achievements" style={{color:"white", paddingInline:50}}>Achievements</Nav.Link>
+          <Nav.Link href="/blogs" style={{color:"white", paddingInline:50}}>Blogs</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
