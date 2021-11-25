@@ -1,3 +1,4 @@
+import { Typography } from "@mui/material";
 import * as React from "react";
 import { Container } from "react-bootstrap";
 import "./events.css";
@@ -5,6 +6,9 @@ import "./events.css";
 export default function Events() {
 	return (
 		<Container className="container">
+			<Typography variant="h3" component="div">
+				Event
+			</Typography>
 			<section id="photos">
 				{itemData.map((item, index) => {
 					return <img src={item.img} alt={item.title} />;
