@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route, HashRouter} from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -12,14 +12,14 @@ import Events from "./pages/gallery/Event";
 
 const Routing = () => {
 	return (
-		<Router>
+		<HashRouter>
 			<Switch>
 				<Route exact path="/" component={App} />
 				<Route path="/achievements" component={Achievements} />
 				<Route path="/blogs" component={Blogs} />
 				<Route path="/gallery" component={Gallery} />
 			</Switch>
-		</Router>
+		</HashRouter>
 	);
 };
 
