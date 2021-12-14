@@ -1,7 +1,0 @@
-.card{
- margin: 0.7vw;
- transition: all 1s ease-in-out;
-}
-.card:hover{
-    transform: scale(1.1) ;
-}
