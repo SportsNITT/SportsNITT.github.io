@@ -1,7 +1,11 @@
 .card{
  margin: 0.7vw;
- transition: all 1s ease-in-out;
+ font-family: 'Rubik', sans-serif;
+ background-color: rgb(71, 71, 71);
+ color:whitesmoke
+ 
 }
 .card:hover{
-    transform: scale(1.1) ;
+    transform: scale(1.05) ;
+    transition: 0.5s;
 }

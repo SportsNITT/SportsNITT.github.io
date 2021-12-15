@@ -48,16 +48,16 @@ const featuredPosts = [
   },
 ];
 const posts = [{
-    id:1,
-    desc:"post1"
-    }, 
-    {
-        id:2,
-        desc:"post2"
-    }, {
-        id:3,
-        desc:"post3"
-    }];
+  id: 1,
+  desc: "post1"
+},
+{
+  id: 2,
+  desc: "post2"
+}, {
+  id: 3,
+  desc: "post3"
+}];
 
 const sidebar = {
   title: 'About us',
@@ -76,7 +76,7 @@ const sidebar = {
     { title: 'May 1999', url: '#' },
     { title: 'April 1999', url: '#' },
   ],
-  categories : [
+  categories: [
     { title: 'Technology', url: '#' },
     { title: 'Design', url: '#' },
     { title: 'Culture', url: '#' },
@@ -87,12 +87,7 @@ const sidebar = {
     { title: 'Health', url: '#' },
     { title: 'Style', url: '#' },
     { title: 'Travel', url: '#' },
-  ],
-  social: [
-    { name: 'GitHub', icon: GitHubIcon },
-    { name: 'Twitter', icon: TwitterIcon },
-    { name: 'Facebook', icon: FacebookIcon },
-  ],
+  ]
 };
 
 export default function Blog() {
@@ -101,7 +96,7 @@ export default function Blog() {
   return (
     <React.Fragment>
       <CssBaseline />
-      <Container maxWidth="lg">
+      <Container maxWidth="lg" style={{ backgroundColor: "black" }}>
         <Header title="Blog" social={sidebar.social} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
@@ -112,7 +107,7 @@ export default function Blog() {
           </Grid>
           <Grid container spacing={5} className={classes.mainGrid}>
             <Main title="Recent posts" posts={posts} />
-            
+
             <Sidebar
               title={sidebar.title}
               description={sidebar.description}
