@@ -11,7 +11,7 @@ export default function NavbarMain() {
     { name: 'Facebook', icon: FacebookIcon, link: "" },
   ]
   return (
-    <Navbar bg="transparent" expand="lg" variant="dark" style={{ maxWidth: window.inn }}>
+    <Navbar bg="transparent" expand="lg" variant="dark" style={{ maxWidth: window.innerWidth }}>
       <Container style={{ alignItems: "center" }}>
         <Navbar.Brand href="/" style={{ color: "#ff8b00", marginLeft: 10, fontFamily: "Open Sans", fontWeight: 900, textTransform: "uppercase" }}>
           Sports contigent
@@ -22,6 +22,7 @@ export default function NavbarMain() {
             <Nav.Link href="/" style={{ color: "white", paddingInline: 30, fontFamily: "Open Sans" }}>Home</Nav.Link>
             <Nav.Link href="/achievements" style={{ color: "white", paddingInline: 30, fontFamily: "Open Sans" }}>Achievements</Nav.Link>
             <Nav.Link href="/blogs" style={{ color: "white", paddingInline: 30, fontFamily: "Open Sans" }}>Blogs</Nav.Link>
+            <Nav.Link href="/teams" style={{ color: "white", paddingInline: 30, fontFamily: "Open Sans" }}>Teams</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         <div style={{ display: "flex", flexDirection: "row", float: "right", marginLeft: 10 }}>

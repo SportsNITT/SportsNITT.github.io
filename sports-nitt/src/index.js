@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Achievements from './pages/achievements/Achievements';
 import Blogs from './pages/blogs/Blog';
+import Teams from './pages/teamsPage/Team';
 
 const Routing = () => {
   return(
@@ -15,6 +16,7 @@ const Routing = () => {
         <Route exact path="/" component={App} />
         <Route path="/achievements" component={Achievements}/>
         <Route path="/blogs" component={Blogs}/>
+        <Route path="/teams" component={Teams}/>
       </Switch>  
     </Router>
   )

@@ -6,7 +6,6 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import achievements from '../../data/achievements.json';
 import '../achievements/cards.css';
-import { Container } from '@material-ui/core';
 const achvms = achievements.achievements;
 
 

@@ -11,6 +11,7 @@ import MainFeaturedPost from './MainFeaturedPost';
 import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
+import NavbarMain from '../../components/Navbar';
 
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
@@ -96,7 +97,9 @@ export default function Blog() {
   return (
     <React.Fragment>
       <CssBaseline />
+    
       <Container maxWidth="lg" style={{ backgroundColor: "black" }}>
+      <NavbarMain/>
         <Header title="Blog" social={sidebar.social} />
         <main>
           <MainFeaturedPost post={mainFeaturedPost} />
