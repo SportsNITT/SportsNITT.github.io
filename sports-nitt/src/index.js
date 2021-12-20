@@ -9,6 +9,7 @@ import Achievements from "./pages/achievements/achievements";
 import Blogs from "./pages/blogs/Blog";
 import Gallery from "./pages/gallery/Gallery";
 import Events from "./pages/gallery/Event";
+import Sportsfete from "./pages/sportsfete/Sportsfete";
 
 const Routing = () => {
 	return (
@@ -18,7 +19,8 @@ const Routing = () => {
 				<Route path="/achievements" component={Achievements} />
 				<Route path="/blogs" component={Blogs} />
 				<Route path="/gallery" component={Gallery} />
-				<Route path="aaa" component = {Events}/>
+				<Route path="/events" component = {Events}/>
+				<Route path="/sportsfete" component = {Sportsfete}/>
 			</Switch>
 		</Router>
 	);
