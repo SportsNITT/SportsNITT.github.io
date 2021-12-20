@@ -5,10 +5,11 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Achievements from "./pages/achievements/achievements";
+import Achievements from "./pages/achievements/Achievements";
 import Blogs from "./pages/blogs/Blog";
 import Gallery from "./pages/gallery/Gallery";
 import Events from "./pages/gallery/Event";
+import Teams from './pages/teamsPage/Team';
 
 const Routing = () => {
 	return (
@@ -18,7 +19,8 @@ const Routing = () => {
 				<Route path="/achievements" component={Achievements} />
 				<Route path="/blogs" component={Blogs} />
 				<Route path="/gallery" component={Gallery} />
-				<Route path="aaa" component = {Events}/>
+        <Route path="/teams" component={Teams}/>
+				<Route path="/events" component = {Events}/>
 			</Switch>
 		</Router>
 	);
