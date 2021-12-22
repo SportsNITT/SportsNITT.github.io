@@ -18,6 +18,7 @@ import Events from "./pages/gallery/Event";
 import Teams from "./pages/teamsPage/Team";
 import CarouselImg from "./pages/home/Carousel";
 import Home from "./pages/home/Home";
+import Sportsfete from "./pages/sportfete/Sportsfete";
 
 const Routing = () => {
 	return (
@@ -29,6 +30,7 @@ const Routing = () => {
 				<Route path="/gallery" component={Gallery} />
 				<Route path="/teams" component={Teams} />
 				<Route path="/events" component={Events} />
+				<Route path="/sportsfete" component={Sportsfete} />
 			</Switch>
 		</Router>
 	);

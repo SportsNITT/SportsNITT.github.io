@@ -4,6 +4,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import logo from "../assets/images/logo.png";
+import { colors } from "../utils/colors";
 
 export default function NavbarMain() {
 	const social = [
@@ -12,7 +13,13 @@ export default function NavbarMain() {
 		{ name: "Facebook", icon: FacebookIcon, link: "" },
 	];
 	return (
-		<Navbar bg="#343a40" expand="lg" sticky="top">
+		<Navbar
+			expand="lg"
+			sticky="top"
+			style={{
+				backgroundColor: "#22222270",
+			}}
+		>
 			<Container fluid style={{ alignItems: "center" }}>
 				<Navbar.Brand>
 					<img
@@ -51,7 +58,7 @@ export default function NavbarMain() {
 								color: "white",
 								paddingInline: 30,
 								fontFamily: "Open Sans",
-								fontSize: "14px",
+								fontSize: "1.5em",
 							}}
 						>
 							Home
@@ -62,7 +69,7 @@ export default function NavbarMain() {
 								color: "white",
 								paddingInline: 30,
 								fontFamily: "Open Sans",
-								fontSize: 14,
+								fontSize: "1.5em",
 							}}
 						>
 							Achievements
@@ -73,7 +80,7 @@ export default function NavbarMain() {
 								color: "white",
 								paddingInline: 30,
 								fontFamily: "Open Sans",
-								fontSize: 14,
+								fontSize: "1.5em",
 							}}
 						>
 							Blogs
@@ -84,14 +91,25 @@ export default function NavbarMain() {
 								color: "white",
 								paddingInline: 30,
 								fontFamily: "Open Sans",
-								fontSize: 14,
+								fontSize: "1.5em",
 							}}
 						>
 							Teams
 						</Nav.Link>
+						<Nav.Link
+							href="/sportsfete"
+							style={{
+								color: "white",
+								paddingInline: 30,
+								fontFamily: "Open Sans",
+								fontSize: "1.5em",
+							}}
+						>
+							Sportsfete
+						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
-				<div
+				{/* <div
 					style={{
 						display: "flex",
 						flexDirection: "row",
@@ -130,8 +148,11 @@ export default function NavbarMain() {
 					>
 						<FacebookIcon fontSize="medium" />
 					</Nav.Link>
-				</div>
-				<Navbar.Toggle aria-controls="basic-navbar-nav" />
+				</div> */}
+				<Navbar.Toggle
+					aria-controls="basic-navbar-nav"
+					style={{ color: colors.liteGrey, backgroundColor: colors.grey }}
+				/>
 			</Container>
 		</Navbar>
 	);
