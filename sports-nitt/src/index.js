@@ -1,15 +1,21 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Switch, Route, HashRouter} from "react-router-dom";
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	HashRouter,
+} from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "semantic-ui-css/semantic.min.css";
 import Achievements from "./pages/achievements/Achievements";
 import Blogs from "./pages/blogs/Blog";
 import Gallery from "./pages/gallery/Gallery";
 import Events from "./pages/gallery/Event";
-import Teams from './pages/teamsPage/Team';
+import Teams from "./pages/teamsPage/Team";
 
 const Routing = () => {
 	return (
@@ -19,8 +25,8 @@ const Routing = () => {
 				<Route path="/achievements" component={Achievements} />
 				<Route path="/blogs" component={Blogs} />
 				<Route path="/gallery" component={Gallery} />
-        <Route path="/teams" component={Teams}/>
-				<Route path="/events" component = {Events}/>
+				<Route path="/teams" component={Teams} />
+				<Route path="/events" component={Events} />
 			</Switch>
 		</Router>
 	);
