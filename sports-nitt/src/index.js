@@ -16,6 +16,8 @@ import Blogs from "./pages/blogs/Blog";
 import Gallery from "./pages/gallery/Gallery";
 import Events from "./pages/gallery/Event";
 import Teams from "./pages/teamsPage/Team";
+import CarouselImg from "./pages/home/Carousel";
+import Home from "./pages/home/Home";
 
 const Routing = () => {
 	return (

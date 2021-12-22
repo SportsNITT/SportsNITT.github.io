@@ -37,21 +37,13 @@ const Footer = () => (
 				</List>
 			</Grid.Column>
 			<Grid.Column>
-				<Button color="facebook">
-					<Icon name="facebook" />
-				</Button>
-				<Button color="twitter">
-					<Icon name="twitter" />
-				</Button>
-				<Button color="linkedin">
-					<Icon name="linkedin" />
-				</Button>
-				<Button color="instagram">
-					<Icon name="instagram" />
-				</Button>
-				<Button color="youtube">
-					<Icon name="youtube" />
-				</Button>
+				<div>
+					<Button circular color="facebook" icon="facebook" />
+					<Button circular color="twitter" icon="twitter" />
+					<Button circular color="linkedin" icon="linkedin" />
+					<Button circular color="youtube" icon="youtube" />
+					<Button circular color="instagram" icon="instagram" />
+				</div>
 			</Grid.Column>
 		</Grid>
 		<Divider />
