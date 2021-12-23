@@ -1,33 +1,42 @@
 import React from "react";
-import { Image, Grid } from "semantic-ui-react";
-import logo from "../../assets/images/logo.png";
+import { Grid } from "semantic-ui-react";
+import { colors } from "../../utils/colors";
 
 export default function About() {
 	return (
-		<Grid centered>
-			<Grid.Column width={6}>
-				<Image src={logo} />
-			</Grid.Column>
-			<Grid.Column width={10}>
-				<p
-					style={{
-						textAlign: "left",
-						color: "white",
-						fontSize: "24px",
-					}}
-				>
-					Te eum doming eirmod, nominati pertinacia argumentum ad his. Ex eam
-					alia facete scriptorem, est autem aliquip detraxit at. Usu ocurreret
-					referrentur at, cu epicurei appellantur vix. Cum ea laoreet recteque
-					electram, eos choro alterum definiebas in. Vim dolorum definiebas an.
-					Mei ex natum rebum iisque. Eu quo homero blandit intellegebat.
-					Incorrupte consequuntur mei id. Mei ut facer dolores adolescens, no
-					illum aperiri quo, usu odio brute at. Qui te porro electram, ea dico
-					facete utroque quo. Populo quodsi te eam, wisi everti eos ex, eum
-					elitr altera utamur at. Quodsi convenire mnesarchum eu per, quas
-					minimum postulant per id.
-				</p>
-			</Grid.Column>
-		</Grid>
+		<div style={{ marginTop: "20px", marginBottom: "20px" }}>
+			<Grid centered>
+				<Grid.Column width={12}>
+					<h1
+						style={{
+							textAlign: "center",
+							color: colors.secondary,
+							fontSize: "2em",
+							fontFamily: "Open Sans",
+						}}
+					>
+						Welcome to Sports Council
+					</h1>
+					<p
+						style={{
+							textAlign: "center",
+							color: colors.grey,
+							fontSize: "1.5em",
+							fontFamily: "Open Sans",
+						}}
+					>
+						Here at the NIT Trichy Sports Council, we envision a campus united
+						by the values taught to us by sports - integrity, teamwork, and
+						commitment. We strive to create an environment within the campus
+						where sports can thrive and form an integral part of the lives of
+						all those who reside at NIT Trichy, students and staff alike. The
+						council organizes multiple events throughout the year, encouraging
+						all those passionate about the sport they love. We also engage with
+						the members of the campus who partake in these events and aim to
+						facilitate their endeavors in the best possible manner.
+					</p>
+				</Grid.Column>
+			</Grid>
+		</div>
 	);
 }

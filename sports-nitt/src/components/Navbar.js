@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import FacebookIcon from "@material-ui/icons/Facebook";
@@ -7,11 +7,16 @@ import logo from "../assets/images/logo.png";
 import { colors } from "../utils/colors";
 
 export default function NavbarMain() {
+	const [activeLink, setactiveLink] = useState("home");
 	const social = [
 		{ name: "GitHub", icon: GitHubIcon, link: "" },
 		{ name: "Twitter", icon: TwitterIcon, link: "" },
 		{ name: "Facebook", icon: FacebookIcon, link: "" },
 	];
+	useEffect(() => {
+		setactiveLink(window.location.pathname.substring(1));
+	}, [window.location.pathname]);
+
 	return (
 		<Navbar
 			expand="lg"
@@ -55,10 +60,10 @@ export default function NavbarMain() {
 						<Nav.Link
 							href="/"
 							style={{
-								color: "white",
+								color: activeLink == "" ? "#ff8b00" : "white",
 								paddingInline: 30,
 								fontFamily: "Open Sans",
-								fontSize: "1.5em",
+								fontSize: "1.3em",
 							}}
 						>
 							Home
@@ -66,10 +71,10 @@ export default function NavbarMain() {
 						<Nav.Link
 							href="/achievements"
 							style={{
-								color: "white",
+								color: activeLink == "achievements" ? "#ff8b00" : "white",
 								paddingInline: 30,
 								fontFamily: "Open Sans",
-								fontSize: "1.5em",
+								fontSize: "1.3em",
 							}}
 						>
 							Achievements
@@ -77,10 +82,10 @@ export default function NavbarMain() {
 						<Nav.Link
 							href="/blogs"
 							style={{
-								color: "white",
+								color: activeLink == "blogs" ? "#ff8b00" : "white",
 								paddingInline: 30,
 								fontFamily: "Open Sans",
-								fontSize: "1.5em",
+								fontSize: "1.3em",
 							}}
 						>
 							Blogs
@@ -88,10 +93,10 @@ export default function NavbarMain() {
 						<Nav.Link
 							href="/teams"
 							style={{
-								color: "white",
+								color: activeLink == "teams" ? "#ff8b00" : "white",
 								paddingInline: 30,
 								fontFamily: "Open Sans",
-								fontSize: "1.5em",
+								fontSize: "1.3em",
 							}}
 						>
 							Teams
@@ -99,10 +104,10 @@ export default function NavbarMain() {
 						<Nav.Link
 							href="/sportsfete"
 							style={{
-								color: "white",
+								color: activeLink == "sportsfete" ? "#ff8b00" : "white",
 								paddingInline: 30,
 								fontFamily: "Open Sans",
-								fontSize: "1.5em",
+								fontSize: "1.3em",
 							}}
 						>
 							Sportsfete

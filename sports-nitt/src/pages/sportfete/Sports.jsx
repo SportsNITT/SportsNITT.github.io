@@ -4,7 +4,12 @@ import { colors } from "../../utils/colors";
 
 export default function Sports({ data }) {
 	return (
-		<>
+		<div
+			style={{
+				marginTop: "5%",
+				marginBottom: "20px",
+			}}
+		>
 			<h1
 				style={{
 					textAlign: "center",
@@ -38,6 +43,6 @@ export default function Sports({ data }) {
 					))}
 				</Grid>
 			</Segment>
-		</>
+		</div>
 	);
 }

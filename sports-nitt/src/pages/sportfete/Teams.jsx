@@ -5,7 +5,7 @@ import { colors } from "../../utils/colors";
 const Teams = ({ data }) => (
 	<div
 		style={{
-			marginTop: "10px",
+			marginTop: "5%",
 			marginBottom: "20px",
 		}}
 	>

@@ -33,10 +33,10 @@
 
 .hero-text h1 {
 	font-size: 3em;
-	font-weight: 500;
+	font-weight: 700;
 }
 .hero-text p {
-	font-size: 1em;
+	font-size: 1.3em;
 	letter-spacing: 3px;
 }
 
@@ -46,10 +46,10 @@
 	padding: 13px 25px;
 	border-radius: 5px;
 	border: none;
-	font-size: 0.9em;
+	font-size: 1.2em;
 	font-weight: 700;
 	text-transform: uppercase;
-	background-color: #ffc312;
+	background-color: #ff8b00;
 	transition: background-color 0.1s;
 }
 

@@ -18,7 +18,7 @@ export default function About() {
 				display: "flex",
 				flexDirection: "row",
 				alignItems: "center",
-				marginTop: "10px",
+				marginTop: "5%",
 				marginBottom: "10px",
 			}}
 		>

@@ -6,7 +6,7 @@ import Sportsfete from "./pages/sportfete/Sportsfete";
 function App() {
 	return (
 		<div className="App">
-			<ComingSoon />
+			<Home />
 		</div>
 	);
 }

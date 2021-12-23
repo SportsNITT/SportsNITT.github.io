@@ -1,0 +1,11 @@
+.navLink {
+	color: "white";
+	padding-inline: 30;
+	font-family: "Open Sans";
+	font-size: "1.5em";
+}
+
+.navLink:hover {
+	color: "#ff8b00";
+	text-decoration: underline;
+}

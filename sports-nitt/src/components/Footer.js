@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, useHistory } from "react-router-dom";
 import {
 	Grid,
 	Container,
@@ -10,25 +11,33 @@ import {
 import { colors } from "../utils/colors";
 import "./Footer.css";
 
-const Footer = () => (
-	<Container
-		fluid
-		style={{
-			backgroundColor: colors.liteGrey,
-			marginBottom: 0,
-			height: "100vh",
-		}}
-	>
-		<Container
+const Footer = () => {
+	const navigate = useHistory();
+	return (
+		<footer
 			style={{
 				backgroundColor: colors.liteGrey,
-				marginBottom: 0,
-				height: "100vh",
+				bottom: 0,
+				margin: 0,
+				width: "100%",
+				// position: "sticky",
 			}}
 		>
-			<Grid stackable columns={3}>
-				<Grid.Column>
-					<List
+			<Container
+				style={{
+					backgroundColor: colors.liteGrey,
+					// marginBottom: 0,
+					padding: "20px",
+					// position: "fixed",
+				}}
+			>
+				<Grid stackable columns={3}>
+					<Grid.Column
+						style={{
+							textAlign: "center",
+						}}
+					>
+						{/* <List
 						style={{
 							textAlign: "center",
 						}}
@@ -41,99 +50,169 @@ const Footer = () => (
 								<a href="mailto:sports.nitt@gmail.com">sports.nitt@gmail.com</a>
 							}
 						/>
-						{/* <List.Item
-							icon="linkify"
-							content={<a href="http://www.semantic-ui.com">semantic-ui.com</a>}
-						/> */}
-					</List>
-				</Grid.Column>
-				<Grid.Column>
-					<List
-						link
+					</List> */}
+						<h1
+							style={{
+								color: colors.secondary,
+								fontSize: "1.5em",
+								fontFamily: "Open Sans",
+							}}
+						>
+							Contact
+						</h1>
+						<p
+							style={{
+								textAlign: "center",
+								wordWrap: "break-word",
+								color: colors.grey,
+								fontSize: "1.2em",
+								fontFamily: "Open Sans",
+							}}
+						>
+							Sports Secretary - Abhishek Shah <br />
+							Phone - +91 70576 46485 <br />
+							<br />
+							Sports Complex
+							<br />
+							National Institute of Technology Tiruchirappalli - 620015 Tamil
+							Nadu, INDIA
+							<br />
+							<a href="mailto:sports.nitt@gmail.com">
+								sports.nitt@gmail.com
+							</a>{" "}
+						</p>
+					</Grid.Column>
+					<Grid.Column
 						style={{
 							textAlign: "center",
 						}}
 					>
-						<List.Item
-							as="a"
-							style={{
-								color: colors.grey,
-								fontSize: "1.2em",
-								fontFamily: "Open Sans",
-							}}
+						<div>
+							<h1
+								style={{
+									color: colors.secondary,
+									fontSize: "1.5em",
+									fontFamily: "Open Sans",
+								}}
+							>
+								Quick links
+							</h1>
+
+							<List
+								link
+								style={{
+									textAlign: "center",
+								}}
+							>
+								<List.Item
+									as="a"
+									style={{
+										color: colors.grey,
+										fontSize: "1.2em",
+										fontFamily: "Open Sans",
+									}}
+									onClick={() => navigate.push("/")}
+								>
+									Home
+								</List.Item>
+								<List.Item
+									as="a"
+									style={{
+										color: colors.grey,
+										fontSize: "1.2em",
+										fontFamily: "Open Sans",
+									}}
+									onClick={() => navigate.push("/achievements")}
+								>
+									Achievements
+								</List.Item>
+								<List.Item
+									as="a"
+									style={{
+										color: colors.grey,
+										fontSize: "1.2em",
+										fontFamily: "Open Sans",
+									}}
+									onClick={() => navigate.push("/blogs")}
+								>
+									Blogs
+								</List.Item>
+								<List.Item
+									as="a"
+									style={{
+										color: colors.grey,
+										fontSize: "1.2em",
+										fontFamily: "Open Sans",
+									}}
+									onClick={() => navigate.push("/teams")}
+								>
+									teams
+								</List.Item>
+								<List.Item
+									as="a"
+									style={{
+										color: colors.grey,
+										fontSize: "1.2em",
+										fontFamily: "Open Sans",
+									}}
+									onClick={() => navigate.push("/sportsfete")}
+								>
+									Sportsfete
+								</List.Item>
+							</List>
+						</div>
+					</Grid.Column>
+					<Grid.Column
+						style={{
+							textAlign: "center",
+						}}
+					>
+						<div
+						// style={{
+						// 	textAlign: "center",
+						// }}
 						>
-							Home
-						</List.Item>
-						<List.Item
-							as="a"
-							style={{
-								color: colors.grey,
-								fontSize: "1.2em",
-								fontFamily: "Open Sans",
-							}}
-						>
-							Achievements
-						</List.Item>
-						<List.Item
-							as="a"
-							style={{
-								color: colors.grey,
-								fontSize: "1.2em",
-								fontFamily: "Open Sans",
-							}}
-						>
-							Blogs
-						</List.Item>
-						<List.Item
-							as="a"
-							style={{
-								color: colors.grey,
-								fontSize: "1.2em",
-								fontFamily: "Open Sans",
-							}}
-						>
-							teams
-						</List.Item>
-						<List.Item
-							as="a"
-							style={{
-								color: colors.grey,
-								fontSize: "1.2em",
-								fontFamily: "Open Sans",
-							}}
-						>
-							Sportsfete
-						</List.Item>
-					</List>
-				</Grid.Column>
-				<Grid.Column
+							<h1
+								style={{
+									color: colors.secondary,
+									fontSize: "1.5em",
+									fontFamily: "Open Sans",
+								}}
+							>
+								follow us
+							</h1>
+							<Button
+								circular
+								color="facebook"
+								icon="facebook"
+								href="https://m.facebook.com/SportsNITT/"
+								target="_blank"
+							/>
+							<Button
+								circular
+								color="instagram"
+								icon="instagram"
+								href="https://www.instagram.com/sportscouncil.nitt/"
+								target="_blank"
+							/>
+						</div>
+					</Grid.Column>
+				</Grid>
+				<Divider />
+				<p
 					style={{
+						color: colors.grey,
+						fontSize: "1em",
+						fontFamily: "Open Sans",
 						textAlign: "center",
+						paddingBottom: "10px",
 					}}
 				>
-					<div>
-						<Button circular color="facebook" icon="facebook" />
-						<Button circular color="twitter" icon="twitter" />
-						<Button circular color="linkedin" icon="linkedin" />
-						<Button circular color="youtube" icon="youtube" />
-						<Button circular color="instagram" icon="instagram" />
-					</div>
-				</Grid.Column>
-			</Grid>
-			<Divider />
-			<p
-				style={{
-					color: colors.grey,
-					fontSize: "1em",
-					fontFamily: "Open Sans",
-					textAlign: "center",
-					paddingBottom: "10px",
-				}}
-			>
-				NIT Trichy Sports Contigent. All rights reserved
-			</p>
-		</Container>
-	</Container>
-);
+					NIT Trichy Sports Contigent. All rights reserved
+				</p>
+			</Container>
+		</footer>
+	);
+};
 
 export default Footer;

@@ -19,17 +19,18 @@ import Teams from "./pages/teamsPage/Team";
 import CarouselImg from "./pages/home/Carousel";
 import Home from "./pages/home/Home";
 import Sportsfete from "./pages/sportfete/Sportsfete";
+import ComingSoon from "./pages/ComingSoon";
 
 const Routing = () => {
 	return (
 		<Router>
 			<Switch>
 				<Route exact path="/" component={App} />
-				<Route path="/achievements" component={Achievements} />
-				<Route path="/blogs" component={Blogs} />
-				<Route path="/gallery" component={Gallery} />
-				<Route path="/teams" component={Teams} />
-				<Route path="/events" component={Events} />
+				<Route path="/achievements" component={ComingSoon} />
+				<Route path="/blogs" component={ComingSoon} />
+				<Route path="/gallery" component={ComingSoon} />
+				<Route path="/teams" component={ComingSoon} />
+				<Route path="/events" component={ComingSoon} />
 				<Route path="/sportsfete" component={Sportsfete} />
 			</Switch>
 		</Router>

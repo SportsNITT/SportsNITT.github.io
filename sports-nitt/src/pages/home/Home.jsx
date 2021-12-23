@@ -5,7 +5,8 @@ import NavbarMain from "../../components/Navbar";
 import { colors } from "../../utils/colors";
 import About from "./About";
 import CarouselImg from "./Carousel";
-import Video from "./Video";
+import Inductions from "./Inductions";
+import Stats from "./Stats";
 
 export default function Home() {
 	return (
@@ -13,7 +14,10 @@ export default function Home() {
 			<NavbarMain />
 			<CarouselImg />
 			<Container style={{ backgroundColor: colors.primary }}>
-				<Video />
+				{/* <Video /> */}
+				<About />
+				<Stats />
+				<Inductions />
 			</Container>
 			<Footer />
 		</>
