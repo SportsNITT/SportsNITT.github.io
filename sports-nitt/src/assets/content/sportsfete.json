@@ -1,0 +1,76 @@
+{
+	"introduction": "Sportsfete is the intra-college sports fest where the 14 departments of NIT Trichy, come together and participate in various sports in a quest to win the overall title. The competition happens over a span of 4 days during which a rampant crowd of 7000 odd people actively participate or cheer for their department teams bringing the campus to life like no other time of the year.",
+	"logo_png": "/sportsfete/PNG_logo_alone.png",
+	"named_logo": "logo_new.png",
+	"winners_2018": [
+		"Department of Mechanical Engineering",
+		"Department of Production Engineering",
+		"Department of Architecture"
+	],
+	"SF'18_aftermovie_link": "https://www.youtube.com/watch?v=NYk0Y6TwgDc",
+	"winners_2019": [
+		"Department of Production Engineering",
+		"Department of Mechanical Engineering",
+		"Department of Architecture"
+	],
+	"SF'19_aftermovie_link": "https://www.youtube.com/watch?v=8WsdpFDGvIg",
+	"sports": [
+		"Athletics",
+		"Badminton",
+		"Basketball",
+		"Carrom",
+		"Chess",
+		"Cricket",
+		"Football",
+		"Handball",
+		"Hockey",
+		"Kabaddi",
+		"Kho kho",
+		"Marathon",
+		"Powerlifting",
+		"Sports Quiz",
+		"Swimming",
+		"Table Tennis",
+		"Tennis",
+		"Throwball",
+		"Volleyball",
+		"Weightlifting"
+	],
+	"inductions_title": "Inductions 2021-22",
+	"inductions_description": "The lateral inductions for Sportsfete’22 is here and with it your chance to be a part of one of the most exciting fests in campus. We are looking for enthusiastic students to make Sportsfete’22 a grand success especially after our long spell off-campus. We hope to see you all soon and we promise that you’re in for thrilling journey!",
+	"inductions_form_link": "https://forms.gle/1DqFsYu4upp6FvZ67",
+	"teams": [
+		{
+			"name": "Marketing",
+			"JD": "The Marketing team is the backbone of any fest. We are the ones who determine the quality of the fest. Without us, a fest can't bloom because of the meagre initial budget. We welcome all the marketing enthusiasts who want to gain hands-on experience of corporate world starting from associating with companies for successful converts to teaming up with all the other teams. As part of the marketing team, you will find and contact companies regarding sponsorship opportunities, draft sponsorship proposals, work with the POC’s to ensure that the deliverables from both sides are met and more. So, let's hop on for the thrilling journey to make Sportsfete'22 great with great sponsors."
+		},
+		{
+			"name": "Media & Publicity",
+			"JD": "The Media & Publicity team is all about publicizing Sportsfete through our various social  media handles and maximizing our reach and engagement in the NITT campus. Apart from regular updates about Sportsfete and its events we also post about sports-related news and facts. We also handle all the general communications released by Sportsfete to the students. We expect our members to ideate and execute innovative & effective ideas for increasing the number of followers and to make our page more interesting and active."
+		},
+		{
+			"name": "Creative",
+			"JD": "The content and design team works as the bridge between the backstage crew of Sportsfete and the students. It is Sportsfete's attempt as the creative outlet to showcase the events that happen in the form of penned-down content and posters. The team deals with all forms of content creation- writing articles, reports and media posts, emceeing, interviewing, and designing posters and illustrations. A creative mind and the ability to put those thoughts into words is the only prerequisite."
+		},
+		{
+			"name": "Ambience",
+			"JD": "The Ambience team is entrusted to develop the vibe of a space formed of a cohesive concept that ultimately makes people feel welcome and inspired to enjoy the space in a way that they expected, and the way that the proprietor intended. We are looking for prolific, ingenious and unconventional minds to ideate, execute and realize the image of the fest that we want to present. Our work brings spaces to life where students want to be for not just one type of event, but many. With that motto we call ourselves the blue-sky thinkers!"
+		},
+		{
+			"name": "Events",
+			"JD": "The Sportsfete Events team organizes a variety of informal events. We are the 'heartbeat' of Sportsfete and are involved in the ideation, creation, and implementation of various exciting events. As the sun falls, we begin our task. Do you have an idea which you want to develop and present in front of 200 people? Events is your team to be in!"
+		},
+		{
+			"name": "Organizing Committee",
+			"JD": "The Organizing committee of SportsFete, popularly known as the “Backbone of SportsFete”, is the team that provides the background support necessary to keep the fest up and running in a healthy state. Most of the setups and external infrastructures seen during SportsFete are raised by the organizing committee. Being a huge team, we have diversity in people which gives you a wide set of skills to polish and a good network of people. Some of the most important take away are Improved decision making and communication skills, situation handling and being part of a huge team."
+		}
+	],
+	"sportsfete_chairman": {
+		"name": "Moneesh B",
+		"contact": "+91 73395 23549"
+	},
+	"social_media": {
+		"instagram": "https://www.instagram.com/sportsfete.nitt/",
+		"facebook": "https://www.facebook.com/sportsfete/"
+	}
+}

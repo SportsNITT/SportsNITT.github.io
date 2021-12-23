@@ -1,12 +1,14 @@
-import './App.css';
-import NavbarMain from './components/Navbar';
+import "./App.css";
+import NavbarMain from "./components/Navbar";
+import ComingSoon from "./pages/ComingSoon";
+import Home from "./pages/home/Home";
+import Sportsfete from "./pages/sportfete/Sportsfete";
 function App() {
-  return (
-    <div className="App">
-      <NavbarMain/>
-     main page
-    </div>
-  );
+	return (
+		<div className="App">
+			<Home />
+		</div>
+	);
 }
 
 export default App;
