@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './achievements.css';
 import achievementsData from '../../data/achievements.json';
 import { Carousel } from 'react-responsive-carousel';
@@ -7,7 +7,7 @@ import ResponsiveGrid from './cards';
 import NavbarMain from '../../components/Navbar';
 
 function Achievements() {
-  console.log(achievementsData['achievements'], "yeys")
+  console.log(achievementsData['achievements'])
   return (
     <div style={{ backgroundColor: "black" }}>
       <NavbarMain />

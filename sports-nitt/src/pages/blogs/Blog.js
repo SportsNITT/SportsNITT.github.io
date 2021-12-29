@@ -12,7 +12,7 @@ import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
 import NavbarMain from '../../components/Navbar';
-
+import blogsData from '../../data/blogs.json';
 
 const useStyles = makeStyles((theme) => ({
   mainGrid: {
@@ -21,81 +21,15 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
+const mainFeaturedPost =blogsData["blogs"][0]; 
 
-const mainFeaturedPost = {
-  title: 'Our Blog',
-  description:
-    "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
-  image: 'https://source.unsplash.com/random',
-  imgText: 'main image description',
-  linkText: 'Continue reading…',
-};
+const featuredPosts =blogsData["featuredblogs"]; 
+// console.log(featuredPosts)
+// console.log(mainFeaturedPost)
 
-const featuredPosts = [
-  {
-    title: 'Featured post',
-    date: 'Nov 12',
-    description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
-    imageText: 'Image Text',
-  },
-  {
-    title: 'Post title',
-    date: 'Nov 11',
-    description:
-      'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    image: 'https://source.unsplash.com/random',
-    imageText: 'Image Text',
-  },
-];
-const posts = [{
-    id:1,
-    desc:"post1"
-    }, 
-    {
-        id:2,
-        desc:"post2"
-    }, {
-        id:3,
-        desc:"post3"
-    }];
+const posts = blogsData["posts"];
 
-const sidebar = {
-  title: 'About us',
-  description:
-    "we are the sports contigent..",
-  archives: [
-    { title: 'March 2020', url: '#' },
-    { title: 'February 2020', url: '#' },
-    { title: 'January 2020', url: '#' },
-    { title: 'November 1999', url: '#' },
-    { title: 'October 1999', url: '#' },
-    { title: 'September 1999', url: '#' },
-    { title: 'August 1999', url: '#' },
-    { title: 'July 1999', url: '#' },
-    { title: 'June 1999', url: '#' },
-    { title: 'May 1999', url: '#' },
-    { title: 'April 1999', url: '#' },
-  ],
-  categories : [
-    { title: 'Technology', url: '#' },
-    { title: 'Design', url: '#' },
-    { title: 'Culture', url: '#' },
-    { title: 'Business', url: '#' },
-    { title: 'Politics', url: '#' },
-    { title: 'Opinion', url: '#' },
-    { title: 'Science', url: '#' },
-    { title: 'Health', url: '#' },
-    { title: 'Style', url: '#' },
-    { title: 'Travel', url: '#' },
-  ],
-  social: [
-    { name: 'GitHub', icon: GitHubIcon },
-    { name: 'Twitter', icon: TwitterIcon },
-    { name: 'Facebook', icon: FacebookIcon },
-  ],
-};
+const sidebar =  blogsData["sidebar"];
 
 export default function Blog() {
   const classes = useStyles();

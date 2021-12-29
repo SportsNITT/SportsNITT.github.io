@@ -1,0 +1,68 @@
+{
+    "blogs": [ {
+   
+         "id": 1,
+            "title": "Our Blog",
+            "description":
+              "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents.",
+            "image": "https://source.unsplash.com/random",
+            "imgText": "main image description",
+            "linkText": "Continue reading…"
+          }
+        ],
+    "featuredblogs":[
+        {   "id":1,
+            "title": "Featured post",
+            "date": "Nov 12",
+            "description":
+              "This is a wider card with supporting text below as a natural lead-in to additional content.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+          },
+          {
+            "id":2,
+            "title": "Featured post 2",
+            "date": "dec 2",
+            "description":
+              "This is a wider card with supporting text below as a natural lead-in to additional content.",
+            "image": "https://source.unsplash.com/random",
+            "imageText": "Image Text"
+          }
+    ],
+    "posts" : [{
+        "id":1,
+        "desc":"post1"
+        }, 
+        {
+            "id":2,
+            "desc":"post2"
+        }, {
+            "id":3,
+            "desc":"post3"
+        }],
+        "sidebar" : {
+            "title": "About us",
+            "description":
+              "we are the sports contigent..",
+            "archives": [
+              { "title": "March 2020", "url": "#" },
+              { "title": "april 2020", "url": "#" },
+              { "title": "may 2020", "url": "#" },
+              { "title": "june 2020", "url": "#" }
+             
+            ],
+            "categories" : [
+              {"title": "Technology", "url": "#" },
+              {"title": "Design", "url": "#" },
+              { "title": "Bussiness", "url": "#" }
+             
+            ],
+            "social": [
+              { "name": "GitHub", "icon": "GitHubIcon" },
+              { "name": "Twitter", "icon": "TwitterIcon" },
+              { "name": "Facebook", "icon": "FacebookIcon" }
+            ]
+          }
+}
+
+ 

@@ -9,7 +9,8 @@ const useStyles = makeStyles((theme) => ({
   },
   toolbarTitle: {
     flex: 1,
-    padding:15
+    padding:30,
+    color:"white"
   },
   toolbarSecondary: {
     justifyContent: 'space-between',
