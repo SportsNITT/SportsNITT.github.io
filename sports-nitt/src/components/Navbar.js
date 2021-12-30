@@ -26,7 +26,7 @@ export default function NavbarMain() {
 			}}
 		>
 			<Container fluid style={{ alignItems: "center" }}>
-				<Navbar.Brand>
+				<Navbar.Brand href="/">
 					<img
 						alt="logo"
 						src={logo}

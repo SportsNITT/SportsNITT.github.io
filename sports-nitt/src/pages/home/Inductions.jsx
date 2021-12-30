@@ -11,8 +11,8 @@ export default function Inductions() {
 		<div
 			style={{
 				textAlign: "center",
-				marginTop: "20px",
-				marginBottom: "20px",
+				marginTop: "5%",
+				marginBottom: "5%",
 			}}
 		>
 			<img alt={content.inductions_title} src={sportsfetelogo} width="70%" />

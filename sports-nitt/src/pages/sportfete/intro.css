@@ -13,6 +13,7 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	flex-grow: 1;
 	height: 100vh;
 	position: relative;
 }
@@ -27,17 +28,18 @@
 	font-weight: 400;
 	color: #fff;
 	white-space: pre-wrap;
+	word-wrap: break-word;
 	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1),
 		0px 16px 23px rgba(0, 0, 0, 0.1);
 }
 
 .hero-text h1 {
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: 700;
 }
 .hero-text p {
-	font-size: 1.3em;
-	letter-spacing: 3px;
+	font-size: 1em;
+	letter-spacing: 2px;
 }
 
 .btn-default,

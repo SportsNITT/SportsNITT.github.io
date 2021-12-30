@@ -1,10 +1,11 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import { colors } from "../../utils/colors";
+import Winners from "./Winners";
 
-export default function Video({ utube, title }) {
+export default function Video({ utube, title, data }) {
 	return (
-		<div style={{ marginBottom: "5%", marginTop: "20px" }}>
+		<div style={{ marginBottom: "10%", marginTop: "5%" }}>
 			<h1
 				style={{
 					textAlign: "center",
@@ -13,6 +14,7 @@ export default function Video({ utube, title }) {
 			>
 				{title}
 			</h1>
+			<Winners data={data} />
 			<ReactPlayer
 				url={utube}
 				playing={true}
