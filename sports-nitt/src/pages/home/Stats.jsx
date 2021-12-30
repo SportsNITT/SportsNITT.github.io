@@ -6,8 +6,8 @@ export default function Stats() {
 	return (
 		<div
 			style={{
-				marginTop: "20px",
-				marginBottom: "20px",
+				marginTop: "5%",
+				marginBottom: "5%",
 			}}
 		>
 			{/* <Statistic.Group

@@ -4,10 +4,10 @@ import { colors } from "../../utils/colors";
 
 export default function About() {
 	return (
-		<div style={{ marginTop: "20px", marginBottom: "20px" }}>
+		<div style={{ marginTop: "5%", marginBottom: "5%" }}>
 			<Grid centered>
 				<Grid.Column width={12}>
-					<h1
+					{/* <h1
 						style={{
 							textAlign: "center",
 							color: colors.secondary,
@@ -16,7 +16,7 @@ export default function About() {
 						}}
 					>
 						Welcome to Sports Council
-					</h1>
+					</h1> */}
 					<p
 						style={{
 							textAlign: "center",
