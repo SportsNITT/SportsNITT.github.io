@@ -2,13 +2,13 @@
 	{
 		"teamName": "Athletics",
 		"captainNames": ["Abhishek Shah", "Alfred Roshan"],
-		"teamImgUrl": "Athletics Icon.png",
+		"teamImgUrl": "Athletics%20Icon.svg",
 		"capImgUrls": ["Athletics_Abhishek.jpg", "Athletics_Alfred.jpg"]
 	},
 	{
 		"teamName": "Badminton",
 		"captainNames": ["Rohan D", "Nivedhasri"],
-		"teamImgUrl": "Badminton Icon.png",
+		"teamImgUrl": "Badminton%20Icon.svg",
 		"capImgUrls": ["Badminton_Rohit.jpg", "Badminton_Nivedha.jpg"]
 	},
 	{
@@ -20,7 +20,7 @@
 			"Anushri Suresh",
 			"Sruti Kiron"
 		],
-		"teamImgUrl": "Basketball Icon.png",
+		"teamImgUrl": "Basketball%20Icon.svg",
 		"capImgUrls": [
 			"Basketball_Karthik.jpeg",
 			"Basketball_Uthaya.jpg",
@@ -32,19 +32,19 @@
 	{
 		"teamName": "Carrom",
 		"captainNames": ["Pranava Jain"],
-		"teamImgUrl": "Carrom Icon.png",
+		"teamImgUrl": "Carrom%20Icon.svg",
 		"capImgUrls": ["Carrom_Pranava.jpg"]
 	},
 	{
 		"teamName": "Chess",
 		"captainNames": ["V K Viekash", "Hirthickkesh PR"],
-		"teamImgUrl": "Chess Icon.png",
+		"teamImgUrl": "Chess%20Icon.svg",
 		"capImgUrls": ["Chess_Viekash.jpg", "Chess_Hirthickkesh.jpeg"]
 	},
 	{
 		"teamName": "Cricket",
 		"captainNames": ["Saket Misal", "Praneashram D"],
-		"teamImgUrl": "Cricket Icon.png",
+		"teamImgUrl": "Cricket%20Icon.svg",
 		"capImgUrls": ["Cricket_Saket.JPG", "Cricket_Praneashram.jpg"]
 	},
 	{
@@ -55,7 +55,7 @@
 			"Manasa Muthukumar",
 			"Nandyala Rajarajeswari Devi"
 		],
-		"teamImgUrl": "Football Icon.png",
+		"teamImgUrl": "Football%20Icon.svg",
 		"capImgUrls": [
 			"Football_Sumant.jpg",
 			"Football_Praveen.jpg",
@@ -66,7 +66,7 @@
 	{
 		"teamName": "Handball",
 		"captainNames": ["Kaustubh Shinde", "Srinivasulu M", "Karri Sri Siddhi"],
-		"teamImgUrl": "Handball Icon.png",
+		"teamImgUrl": "Handball%20Icon.svg",
 		"capImgUrls": [
 			"Handball_Kaustubh.jpg",
 			"Handball_Srinivas.jpeg",
@@ -76,19 +76,19 @@
 	{
 		"teamName": "Hockey",
 		"captainNames": ["Arvind Sriraam N P", " Abhay Kumar Gupta"],
-		"teamImgUrl": "Hockey Icon.png",
+		"teamImgUrl": "Hockey%20Icon.svg",
 		"capImgUrls": ["Hockey_Arvind.jpg", "Hockey_Abhay.jpeg"]
 	},
 	{
 		"teamName": "Kabaddi",
 		"captainNames": ["Rahul Karthik", "R. Janani"],
-		"teamImgUrl": "",
+		"teamImgUrl": "Kabaddi%20Icon.svg",
 		"capImgUrls": ["Kabaddi_Rahul.jpg", "Kabaddi_Janani.jpeg"]
 	},
 	{
 		"teamName": " Kho-Kho",
 		"captainNames": ["Abhishek P", "Nived", "Charvini", "R Dheepthi"],
-		"teamImgUrl": "Kho-Kho Icon.png",
+		"teamImgUrl": "Kho-Kho%20Icon.svg",
 		"capImgUrls": [
 			"Kho-Kho_Abhishek.jpg",
 			"Kho-Kho_Nived.jpg",
@@ -104,7 +104,7 @@
 			"Joshini S",
 			"Deboleena Sanyal L"
 		],
-		"teamImgUrl": "Powerlifting Icon.png",
+		"teamImgUrl": "Powerlifting%20Icon.svg",
 		"capImgUrls": [
 			"Powerlifting_Shubham.png",
 			"Powerlifting_Saurav.jpeg",
@@ -115,7 +115,7 @@
 	{
 		"teamName": "Swimming",
 		"captainNames": ["Jerry J", "CH Chethan Reddy", "Kimaya Prasad Suryarao"],
-		"teamImgUrl": "Swimming Icon.png",
+		"teamImgUrl": "Swimming%20Icon.svg",
 		"capImgUrls": [
 			"Swimming_Jerry.JPG",
 			"Swimming_Chethan.jpeg",
@@ -123,9 +123,9 @@
 		]
 	},
 	{
-		"teamName": "Table Tennis",
+		"teamName": "Table%20Tennis",
 		"captainNames": ["Harish VG", "K Maitraeyan", "Moneesh B.", "Tanuruchi"],
-		"teamImgUrl": "TableTennis Icon.png",
+		"teamImgUrl": "TableTennis Icon.svg",
 		"capImgUrls": [
 			"TableTennis_Harish.jpeg",
 			"TableTennis_Maitraeyan.jpg",
@@ -136,13 +136,13 @@
 	{
 		"teamName": " Taekwondo",
 		"captainNames": ["Joshini S"],
-		"teamImgUrl": "Taekwondo Icon.png",
+		"teamImgUrl": "Taekwondo%20Icon.svg",
 		"capImgUrls": ["Taekwondo_Joshini.jpeg"]
 	},
 	{
 		"teamName": "Tennis",
 		"captainNames": ["S. Sanjay Karthick"],
-		"teamImgUrl": "Tennis Icon.png",
+		"teamImgUrl": "Tennis Icon.svg",
 		"capImgUrls": ["Tennis_Sanjay.jpg"]
 	},
 	{
@@ -154,7 +154,7 @@
 			"Lalanya Yarlagadda",
 			"Varsha"
 		],
-		"teamImgUrl": "Volleyball Icon.png",
+		"teamImgUrl": "Volleyball%20Icon.svg",
 		"capImgUrls": [
 			"Volleyball_Premkumar.jpg",
 			"Volleyball_ArunKumar.jpg",
