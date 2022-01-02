@@ -1,43 +1,166 @@
 [
 	{
-		"teamName": "Football",
-		"captainNames": ["Lionel Messi"],
-		"teamImgUrl": "https://images.saymedia-content.com/.image/t_share/MTc0MjUwOTUwNjYyMzAxNTY0/top-10-best-football-teams-of-all-time.jpg",
+		"teamName": "Athletics",
+		"captainNames": ["Abhishek Shah", "Alfred Roshan"],
+		"teamImgUrl": "Athletics Icon.png",
+		"capImgUrls": ["Athletics_Abhishek.jpg", "Athletics_Alfred.jpg"]
+	},
+	{
+		"teamName": "Badminton",
+		"captainNames": ["Rohan D", "Nivedhasri"],
+		"teamImgUrl": "Badminton Icon.png",
+		"capImgUrls": ["Badminton_Rohit.jpg", "Badminton_Nivedha.jpg"]
+	},
+	{
+		"teamName": "Basketball",
+		"captainNames": [
+			"Karthik Sivakumar",
+			"R. Uthayapavan",
+			"Saisanika Muralidhar",
+			"Anushri Suresh",
+			"Sruti Kiron"
+		],
+		"teamImgUrl": "Basketball Icon.png",
 		"capImgUrls": [
-			"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+			"Basketball_Karthik.jpeg",
+			"Basketball_Uthaya.jpg",
+			"Basketball_Saisanika.jpeg",
+			"Basketball_Anushri.jpg",
+			"Basketball_Sruti.jpg"
 		]
 	},
 	{
-		"teamName": "badminton",
-		"captainNames": ["Pullela Gopichand", "PV Sindhu"],
-		"teamImgUrl": "https://www.insidesport.co/wp-content/uploads/2020/05/bwf-india.jpg",
-		"capImgUrls": [
-			"https://www.thehindubusinessline.com/news/sports/ufmwt7/article29460719.ece/alternates/FREE_355/Pullela-Gopichand",
-			"https://images.news18.com/ibnlive/uploads/2021/08/1627914698_sindhu-1600x1200.jpg"
-		]
+		"teamName": "Carrom",
+		"captainNames": ["Pranava Jain"],
+		"teamImgUrl": "Carrom Icon.png",
+		"capImgUrls": ["Carrom_Pranava.jpg"]
+	},
+	{
+		"teamName": "Chess",
+		"captainNames": ["V K Viekash", "Hirthickkesh PR"],
+		"teamImgUrl": "Chess Icon.png",
+		"capImgUrls": ["Chess_Viekash.jpg", "Chess_Hirthickkesh.jpeg"]
+	},
+	{
+		"teamName": "Cricket",
+		"captainNames": ["Saket Misal", "Praneashram D"],
+		"teamImgUrl": "Cricket Icon.png",
+		"capImgUrls": ["Cricket_Saket.JPG", "Cricket_Praneashram.jpg"]
 	},
 	{
 		"teamName": "Football",
-		"captainNames": ["Lionel Messi"],
-		"teamImgUrl": "https://images.saymedia-content.com/.image/t_share/MTc0MjUwOTUwNjYyMzAxNTY0/top-10-best-football-teams-of-all-time.jpg",
+		"captainNames": [
+			"Sumant Binil",
+			"Praveen",
+			"Manasa Muthukumar",
+			"Nandyala Rajarajeswari Devi"
+		],
+		"teamImgUrl": "Football Icon.png",
 		"capImgUrls": [
-			"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+			"Football_Sumant.jpg",
+			"Football_Praveen.jpg",
+			"Football_Manasa.jpg",
+			"Football_Nandyala.jpg"
 		]
 	},
 	{
-		"teamName": "Football",
-		"captainNames": ["Lionel Messi"],
-		"teamImgUrl": "https://images.saymedia-content.com/.image/t_share/MTc0MjUwOTUwNjYyMzAxNTY0/top-10-best-football-teams-of-all-time.jpg",
+		"teamName": "Handball",
+		"captainNames": ["Kaustubh Shinde", "Srinivasulu M", "Karri Sri Siddhi"],
+		"teamImgUrl": "Handball Icon.png",
 		"capImgUrls": [
-			"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+			"Handball_Kaustubh.jpg",
+			"Handball_Srinivas.jpeg",
+			"Handball_Siddhi.jpg"
 		]
 	},
 	{
-		"teamName": "Football",
-		"captainNames": ["Lionel Messi"],
-		"teamImgUrl": "https://images.saymedia-content.com/.image/t_share/MTc0MjUwOTUwNjYyMzAxNTY0/top-10-best-football-teams-of-all-time.jpg",
+		"teamName": "Hockey",
+		"captainNames": ["Arvind Sriraam N P", " Abhay Kumar Gupta"],
+		"teamImgUrl": "Hockey Icon.png",
+		"capImgUrls": ["Hockey_Arvind.jpg", "Hockey_Abhay.jpeg"]
+	},
+	{
+		"teamName": "Kabaddi",
+		"captainNames": ["Rahul Karthik", "R. Janani"],
+		"teamImgUrl": "",
+		"capImgUrls": ["Kabaddi_Rahul.jpg", "Kabaddi_Janani.jpeg"]
+	},
+	{
+		"teamName": " Kho-Kho",
+		"captainNames": ["Abhishek P", "Nived", "Charvini", "R Dheepthi"],
+		"teamImgUrl": "Kho-Kho Icon.png",
 		"capImgUrls": [
-			"https://thumbor.forbes.com/thumbor/fit-in/416x416/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5ec595d45f39760007b05c07%2F0x0.jpg%3Fbackground%3D000000%26cropX1%3D989%26cropX2%3D2480%26cropY1%3D74%26cropY2%3D1564"
+			"Kho-Kho_Abhishek.jpg",
+			"Kho-Kho_Nived.jpg",
+			"Kho-Kho_Charvini.jpeg",
+			"Kho-Kho_Dheepthi.jpg"
+		]
+	},
+	{
+		"teamName": "Powerlifting",
+		"captainNames": [
+			"Shubham Aggarwal",
+			"Saurav Raj",
+			"Joshini S",
+			"Deboleena Sanyal L"
+		],
+		"teamImgUrl": "Powerlifting Icon.png",
+		"capImgUrls": [
+			"Powerlifting_Shubham.png",
+			"Powerlifting_Saurav.jpeg",
+			"Powerlifting_Joshini.jpg",
+			"Powerlifting_Deboleena.jpeg"
+		]
+	},
+	{
+		"teamName": "Swimming",
+		"captainNames": ["Jerry J", "CH Chethan Reddy", "Kimaya Prasad Suryarao"],
+		"teamImgUrl": "Swimming Icon.png",
+		"capImgUrls": [
+			"Swimming_Jerry.JPG",
+			"Swimming_Chethan.jpeg",
+			"Swimming_Kimaya.jpeg"
+		]
+	},
+	{
+		"teamName": "Table Tennis",
+		"captainNames": ["Harish VG", "K Maitraeyan", "Moneesh B.", "Tanuruchi"],
+		"teamImgUrl": "TableTennis Icon.png",
+		"capImgUrls": [
+			"TableTennis_Harish.jpeg",
+			"TableTennis_Maitraeyan.jpg",
+			"TableTennis_Moneesh.jpg",
+			"TableTennis_Tanuruchi.jpg"
+		]
+	},
+	{
+		"teamName": " Taekwondo",
+		"captainNames": ["Joshini S"],
+		"teamImgUrl": "Taekwondo Icon.png",
+		"capImgUrls": ["Taekwondo_Joshini.jpeg"]
+	},
+	{
+		"teamName": "Tennis",
+		"captainNames": ["S. Sanjay Karthick"],
+		"teamImgUrl": "Tennis Icon.png",
+		"capImgUrls": ["Tennis_Sanjay.jpg"]
+	},
+	{
+		"teamName": "Volleyball – Men’s",
+		"captainNames": [
+			"Premkumar N",
+			" Arun Kumar S",
+			"Srinidhi Chirravuri",
+			"Lalanya Yarlagadda",
+			"Varsha"
+		],
+		"teamImgUrl": "Volleyball Icon.png",
+		"capImgUrls": [
+			"Volleyball_Premkumar.jpg",
+			"Volleyball_ArunKumar.jpg",
+			"Volleyball_Srinidhi.jpg",
+			"Volleyball_Lalanya.jpg",
+			"Volleyball_Varsha.jpg"
 		]
 	}
 ]
