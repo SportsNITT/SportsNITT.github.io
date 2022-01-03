@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.75e4060c.chunk.css",
-    "main.js": "/static/js/main.4e3a887a.chunk.js",
-    "main.js.map": "/static/js/main.4e3a887a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5948794e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5948794e.js.map",
-    "static/css/2.057f7f8e.chunk.css": "/static/css/2.057f7f8e.chunk.css",
-    "static/js/2.4abbee73.chunk.js": "/static/js/2.4abbee73.chunk.js",
-    "static/js/2.4abbee73.chunk.js.map": "/static/js/2.4abbee73.chunk.js.map",
-    "static/js/3.3c1dd787.chunk.js": "/static/js/3.3c1dd787.chunk.js",
-    "static/js/3.3c1dd787.chunk.js.map": "/static/js/3.3c1dd787.chunk.js.map",
+    "main.css": "/static/css/main.5d0f6cd3.chunk.css",
+    "main.js": "/static/js/main.de7c84b2.chunk.js",
+    "main.js.map": "/static/js/main.de7c84b2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9f8c961e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9f8c961e.js.map",
+    "static/css/2.e501ab4a.chunk.css": "/static/css/2.e501ab4a.chunk.css",
+    "static/js/2.94a8f232.chunk.js": "/static/js/2.94a8f232.chunk.js",
+    "static/js/2.94a8f232.chunk.js.map": "/static/js/2.94a8f232.chunk.js.map",
+    "static/js/3.0990a91f.chunk.js": "/static/js/3.0990a91f.chunk.js",
+    "static/js/3.0990a91f.chunk.js.map": "/static/js/3.0990a91f.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.057f7f8e.chunk.css.map": "/static/css/2.057f7f8e.chunk.css.map",
-    "static/css/main.75e4060c.chunk.css.map": "/static/css/main.75e4060c.chunk.css.map",
-    "static/js/2.4abbee73.chunk.js.LICENSE.txt": "/static/js/2.4abbee73.chunk.js.LICENSE.txt",
+    "static/css/2.e501ab4a.chunk.css.map": "/static/css/2.e501ab4a.chunk.css.map",
+    "static/css/main.5d0f6cd3.chunk.css.map": "/static/css/main.5d0f6cd3.chunk.css.map",
+    "static/js/2.94a8f232.chunk.js.LICENSE.txt": "/static/js/2.94a8f232.chunk.js.LICENSE.txt",
     "static/media/2.bb6bfe47.jpg": "/static/media/2.bb6bfe47.jpg",
     "static/media/3.4aa3adb6.jpg": "/static/media/3.4aa3adb6.jpg",
     "static/media/4.68eed29d.jpg": "/static/media/4.68eed29d.jpg",
@@ -27,10 +27,10 @@
     "static/media/sportsfete-logo-alone.0f08f495.png": "/static/media/sportsfete-logo-alone.0f08f495.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5948794e.js",
-    "static/css/2.057f7f8e.chunk.css",
-    "static/js/2.4abbee73.chunk.js",
-    "static/css/main.75e4060c.chunk.css",
-    "static/js/main.4e3a887a.chunk.js"
+    "static/js/runtime-main.9f8c961e.js",
+    "static/css/2.e501ab4a.chunk.css",
+    "static/js/2.94a8f232.chunk.js",
+    "static/css/main.5d0f6cd3.chunk.css",
+    "static/js/main.de7c84b2.chunk.js"
   ]
 }
