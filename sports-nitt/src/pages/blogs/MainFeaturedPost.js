@@ -2,9 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
-import Grid from '@material-ui/core/Grid';
-import Link from '@material-ui/core/Link';
+import {Typography, Modal, Box, Grid, Link, Button} from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   mainFeaturedPost: {
@@ -36,8 +34,23 @@ const useStyles = makeStyles((theme) => ({
     },
   },
 }));
+const style = {
+  position: 'absolute',
+  top: '50%',
+  left: '50%',
+  transform: 'translate(-50%, -50%)',
+  width: 400,
+  bgcolor: 'background.paper',
+  border: '2px solid #000',
+  boxShadow: 24,
+  p: 4,
+};
 
 export default function MainFeaturedPost(props) {
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   const classes = useStyles();
   const { post } = props;
 
@@ -55,9 +68,26 @@ export default function MainFeaturedPost(props) {
             <Typography variant="p" color="inherit" paragraph>
               {post.description}
             </Typography>
-            <Link variant="subtitle1" href="#">
+            {(post.link!="")?
+            (<Link variant="subtitle1" href={post.link}>
               {post.linkText}
-            </Link>
+            </Link>):
+           <Button onClick={handleOpen}> {post.linkText}</Button>}
+            <Modal
+            open={open}
+            onClose={handleClose}
+            aria-labelledby="modal-modal-title"
+            aria-describedby="modal-modal-description"
+          >
+        <Box sx={style}>
+          <Typography id="modal-modal-title" variant="h6" component="h2">
+          {post.title}
+          </Typography>
+          <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+          {post.description}
+          </Typography>
+        </Box>
+      </Modal>
           </div>
         </Grid>
       </Grid>

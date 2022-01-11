@@ -27,7 +27,7 @@ const Routing = () => {
 			<Switch>
 				<Route exact path="/" component={App} />
 				<Route path="/achievements" component={ComingSoon} />
-				<Route path="/blogs" component={ComingSoon} />
+				<Route path="/blogs" component={Blogs} />
 				<Route path="/gallery" component={ComingSoon} />
 				<Route path="/teams" component={ComingSoon} />
 				<Route path="/events" component={ComingSoon} />

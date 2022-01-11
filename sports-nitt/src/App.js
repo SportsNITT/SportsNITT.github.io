@@ -7,8 +7,8 @@ import Team from "./pages/teamsPage/Team";
 function App() {
 	return (
 		<div className="App">
-			{/* <Home /> */}
-			<Team />
+			<Home />
+			{/* <Team /> */}
 		</div>
 	);
 }
