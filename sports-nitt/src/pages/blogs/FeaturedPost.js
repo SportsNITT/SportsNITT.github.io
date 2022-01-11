@@ -21,6 +21,8 @@ const style = {
   bgcolor: 'background.paper',
   border: '2px solid #000',
   boxShadow: 24,
+  borderRadius:5,
+  fontFamily:'tahoma',
   p: 4,
 };
 
