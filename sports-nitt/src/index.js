@@ -1,25 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {
-	BrowserRouter as Router,
-	Switch,
-	Route,
-	HashRouter,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "semantic-ui-css/semantic.min.css";
-import Achievements from "./pages/achievements/Achievements";
-import Blogs from "./pages/blogs/Blog";
-import Gallery from "./pages/gallery/Gallery";
-import Events from "./pages/gallery/Event";
-import Teams from "./pages/teamsPage/Team";
-import CarouselImg from "./pages/home/Carousel";
-import Home from "./pages/home/Home";
 import Sportsfete from "./pages/sportfete/Sportsfete";
 import ComingSoon from "./pages/ComingSoon";
+import Team from "./pages/teamsPage/Team";
 
 const Routing = () => {
 	return (
@@ -29,7 +18,7 @@ const Routing = () => {
 				<Route path="/achievements" component={ComingSoon} />
 				<Route path="/blogs" component={ComingSoon} />
 				<Route path="/gallery" component={ComingSoon} />
-				<Route path="/teams" component={ComingSoon} />
+				<Route path="/teams" component={Team} />
 				<Route path="/events" component={ComingSoon} />
 				<Route path="/sportsfete" component={Sportsfete} />
 			</Switch>

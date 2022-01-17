@@ -123,9 +123,9 @@
 		]
 	},
 	{
-		"teamName": "Table%20Tennis",
+		"teamName": "Table Tennis",
 		"captainNames": ["Harish VG", "K Maitraeyan", "Moneesh B.", "Tanuruchi"],
-		"teamImgUrl": "TableTennis Icon.svg",
+		"teamImgUrl": "TableTennis%20Icon.svg",
 		"capImgUrls": [
 			"TableTennis_Harish.jpeg",
 			"TableTennis_Maitraeyan.jpg",
@@ -134,7 +134,7 @@
 		]
 	},
 	{
-		"teamName": " Taekwondo",
+		"teamName": "Taekwondo",
 		"captainNames": ["Joshini S"],
 		"teamImgUrl": "Taekwondo%20Icon.svg",
 		"capImgUrls": ["Taekwondo_Joshini.jpeg"]
@@ -146,7 +146,7 @@
 		"capImgUrls": ["Tennis_Sanjay.jpg"]
 	},
 	{
-		"teamName": "Volleyball – Men’s",
+		"teamName": "Volleyball",
 		"captainNames": [
 			"Premkumar N",
 			" Arun Kumar S",
