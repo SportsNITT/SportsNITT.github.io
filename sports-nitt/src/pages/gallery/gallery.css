@@ -1,0 +1,36 @@
+.gallery_grid {
+	column-count: 3;
+	max-width: 980px;
+	width: 100%;
+}
+
+.gallery_img {
+	height: auto;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+
+.gallery_img:hover {
+	cursor: pointer;
+	transform: scale(1.2);
+	transition: all 0.5s;
+	overflow: hidden;
+}
+
+@media (max-width: 800px) {
+	.gallery_grid {
+		column-count: 3;
+	}
+}
+
+@media (max-width: 600px) {
+	.gallery_grid {
+		column-count: 2;
+	}
+}
+
+@media (max-width: 400px) {
+	.gallery_grid {
+		column-count: 1;
+	}
+}

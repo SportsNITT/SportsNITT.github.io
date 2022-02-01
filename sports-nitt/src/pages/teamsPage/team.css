@@ -1,65 +1,63 @@
-.cardcontainer {
-	overflow: hidden;
-	border:rgb(70, 70, 70) 1px solid;
-	background-color: rgb(59, 59, 59);
-	text-align: center;
-	border-radius: 0.6rem;
+.team-container {
 	position: relative;
-	margin: 2rem;
-	color:whitesmoke
-}
-
-.cardcontainer:hover{
-	transition: 0.3s;
-	transform: scale(1.07);
-}
-
-.banner-img {
-	position: absolute;
-	height: 15rem;
 	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	overflow: hidden;
+	border-radius: 10px;
 }
 
-.img-container {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
-	flex-wrap: wrap;
-	margin-top: 10.5rem;
+.team-container .team-container-overlay {
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
 }
 
-.profile-img {
-	width: 8rem;
-	height: 8rem;
-	object-fit: scale-down;
-	clip-path: circle(60px at center);
-	background-color: rgb(0, 0, 0);
+.team-container:hover .team-container-overlay {
+	opacity: 1;
 }
 
-.name {
-	font-weight: 600;
-	font-size: 1.2rem;
-	font-family: 'Rubik', sans-serif;
-	font-weight: 400;
+.team-container-image {
+	width: 100%;
+	height: auto;
 }
 
-.wrapper-grid {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, 25rem);
-	justify-content: center;
-	padding:2vh;
+.team-container-details {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: all 0.3s ease-in-out 0s;
+	-moz-transition: all 0.3s ease-in-out 0s;
+	transition: all 0.3s ease-in-out 0s;
 }
 
-.team {
-	background-color: rgba(43, 43, 43, 0.5);
-	padding: 5px;
-	margin-top: 0;
-	font-size: 1.5rem;
-	font-family: 'Rubik', sans-serif;
-	font-weight: 600;
-	
+.team-container:hover .team-container-details {
+	top: 50%;
+	left: 50%;
+	opacity: 1;
+}
+
+.team-container-details h3 {
+	color: #ff8b00;
+	font-family: "Open Sans";
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	margin-bottom: 0.5em;
+	text-transform: uppercase;
+}
+
+.fadeIn-bottom {
+	top: 80%;
 }
