@@ -28,6 +28,10 @@ export default function Gallery() {
 	const [activePage, setActivePage] = useState(1);
 
 	useEffect(() => {
+		setActivePage(1);
+	}, [eventName]);
+
+	useEffect(() => {
 		setLoading(true);
 		setImageData(
 			images[`${eventName}`].slice((activePage - 1) * 20, activePage * 20)
@@ -35,11 +39,11 @@ export default function Gallery() {
 		setTimeout(() => {
 			setPageCount(Math.ceil(images[`${eventName}`].length / 20));
 			setLoading(false);
-		}, 500);
+		}, 700);
 	}, [eventName, activePage]);
 
 	useEffect(() => {
-		setPageCount(Math.ceil(imageData.length / 20));
+		setPageCount(Math.ceil(images[`${eventName}`].length / 20));
 		document.addEventListener('scroll', () => {
 			toggleVisibility();
 		});
@@ -117,17 +121,26 @@ export default function Gallery() {
 					</div>
 				)}
 				{!loading && pageCount && (
-					<Pagination
-						boundaryRange={0}
-						// defaultActivePage={1}
-						activePage={activePage}
-						siblingRange={1}
-						totalPages={pageCount}
-						onPageChange={(e, data) => {
-							console.log(data);
-							setActivePage(data.activePage);
+					<div
+						style={{
+							marginTop: 20,
+							display: 'flex',
+							alignItems: 'center',
+							justifyContent: 'center',
 						}}
-					/>
+					>
+						<Pagination
+							boundaryRange={0}
+							defaultActivePage={1}
+							activePage={activePage}
+							siblingRange={1}
+							totalPages={pageCount}
+							onPageChange={(e, data) => {
+								console.log(data);
+								setActivePage(data.activePage);
+							}}
+						/>
+					</div>
 				)}
 			</Container>
 			<Footer />
