@@ -6,6 +6,7 @@ import {
 	Icon,
 	Image,
 	Loader,
+	Pagination,
 } from 'semantic-ui-react';
 import Footer from '../../components/Footer';
 import NavbarMain from '../../components/Navbar';
@@ -13,21 +14,32 @@ import Event from './Event';
 import images from '../../assets/content/gallery.json';
 import './gallery.css';
 import { colors } from '../../utils/colors';
+// import LazyLoad from 'react-lazyload';
+import LazyLoad from 'react-lazy-load';
 
 export default function Gallery() {
 	const [eventName, setEventName] = useState("Sportsfete '18");
-	const [imageData, setImageData] = useState(images[`Sportsfete '18`]);
+	const [imageData, setImageData] = useState(
+		images[`Sportsfete '18`].slice(0, 20)
+	);
 	const [loading, setLoading] = useState(false);
 	const [isVisible, setIsVisible] = useState(false);
-	useEffect(() => {
-		setLoading(true);
-		setImageData(images[`${eventName}`]);
-		setTimeout(() => {
-			setLoading(false);
-		}, 1000);
-	}, [eventName]);
+	const [pageCount, setPageCount] = useState(0);
+	const [activePage, setActivePage] = useState(1);
 
 	useEffect(() => {
+		setLoading(true);
+		setImageData(
+			images[`${eventName}`].slice((activePage - 1) * 20, activePage * 20)
+		);
+		setTimeout(() => {
+			setPageCount(Math.ceil(images[`${eventName}`].length / 20));
+			setLoading(false);
+		}, 500);
+	}, [eventName, activePage]);
+
+	useEffect(() => {
+		setPageCount(Math.ceil(imageData.length / 20));
 		document.addEventListener('scroll', () => {
 			toggleVisibility();
 		});
@@ -103,6 +115,19 @@ export default function Gallery() {
 							size='big'
 						></Button>
 					</div>
+				)}
+				{!loading && pageCount && (
+					<Pagination
+						boundaryRange={0}
+						// defaultActivePage={1}
+						activePage={activePage}
+						siblingRange={1}
+						totalPages={pageCount}
+						onPageChange={(e, data) => {
+							console.log(data);
+							setActivePage(data.activePage);
+						}}
+					/>
 				)}
 			</Container>
 			<Footer />
