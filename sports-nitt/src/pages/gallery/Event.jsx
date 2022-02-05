@@ -40,8 +40,10 @@ export default Event = ({ eventName, setEventName }) => {
 				overflowY: 'hidden',
 				overflowX: 'scroll',
 				marginBottom: '20px',
-				justifyContent: 'center',
+				alignItems: 'center',
+				justifyContent: window.innerWidth > 480 ? 'center' : 'normal',
 				scrollSnapAlign: 'center',
+				// marginLeft: '10%',
 			}}
 		>
 			{EVENTS.map((ele) => (

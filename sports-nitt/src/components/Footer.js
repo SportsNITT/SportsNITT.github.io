@@ -1,5 +1,5 @@
-import React from "react";
-import { Link, useHistory } from "react-router-dom";
+import React from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import {
 	Grid,
 	Container,
@@ -7,9 +7,9 @@ import {
 	List,
 	Button,
 	Icon,
-} from "semantic-ui-react";
-import { colors } from "../utils/colors";
-import "./Footer.css";
+} from 'semantic-ui-react';
+import { colors } from '../utils/colors';
+import './Footer.css';
 
 const Footer = () => {
 	const navigate = useHistory();
@@ -19,22 +19,22 @@ const Footer = () => {
 				backgroundColor: colors.liteGrey,
 				bottom: 0,
 				margin: 0,
-				width: "100%",
-				// position: "sticky",
+				width: '100%',
+				// position: 'static',
 			}}
 		>
 			<Container
 				style={{
 					backgroundColor: colors.liteGrey,
 					// marginBottom: 0,
-					padding: "20px",
+					padding: '20px',
 					// position: "fixed",
 				}}
 			>
 				<Grid stackable columns={3}>
 					<Grid.Column
 						style={{
-							textAlign: "center",
+							textAlign: 'center',
 						}}
 					>
 						{/* <List
@@ -54,19 +54,19 @@ const Footer = () => {
 						<h1
 							style={{
 								color: colors.secondary,
-								fontSize: "1.5em",
-								fontFamily: "Open Sans",
+								fontSize: '1.5em',
+								fontFamily: 'Open Sans',
 							}}
 						>
 							Contact
 						</h1>
 						<p
 							style={{
-								textAlign: "center",
-								wordWrap: "break-word",
+								textAlign: 'center',
+								wordWrap: 'break-word',
 								color: colors.grey,
-								fontSize: "1.2em",
-								fontFamily: "Open Sans",
+								fontSize: '1.2em',
+								fontFamily: 'Open Sans',
 							}}
 						>
 							Sports Secretary - Abhishek Shah <br />
@@ -77,22 +77,22 @@ const Footer = () => {
 							National Institute of Technology Tiruchirappalli - 620015 Tamil
 							Nadu, INDIA
 							<br />
-							<a href="mailto:sports.nitt@gmail.com">
+							<a href='mailto:sports.nitt@gmail.com'>
 								sports.nitt@gmail.com
-							</a>{" "}
+							</a>{' '}
 						</p>
 					</Grid.Column>
 					<Grid.Column
 						style={{
-							textAlign: "center",
+							textAlign: 'center',
 						}}
 					>
 						<div>
 							<h1
 								style={{
 									color: colors.secondary,
-									fontSize: "1.5em",
-									fontFamily: "Open Sans",
+									fontSize: '1.5em',
+									fontFamily: 'Open Sans',
 								}}
 							>
 								Quick links
@@ -101,61 +101,61 @@ const Footer = () => {
 							<List
 								link
 								style={{
-									textAlign: "center",
+									textAlign: 'center',
 								}}
 							>
 								<List.Item
-									as="a"
+									as='a'
 									style={{
 										color: colors.grey,
-										fontSize: "1.2em",
-										fontFamily: "Open Sans",
+										fontSize: '1.2em',
+										fontFamily: 'Open Sans',
 									}}
-									onClick={() => navigate.push("/")}
+									onClick={() => navigate.push('/')}
 								>
 									Home
 								</List.Item>
 								<List.Item
-									as="a"
+									as='a'
 									style={{
 										color: colors.grey,
-										fontSize: "1.2em",
-										fontFamily: "Open Sans",
+										fontSize: '1.2em',
+										fontFamily: 'Open Sans',
 									}}
-									onClick={() => navigate.push("/achievements")}
+									onClick={() => navigate.push('/achievements')}
 								>
 									Achievements
 								</List.Item>
 								<List.Item
-									as="a"
+									as='a'
 									style={{
 										color: colors.grey,
-										fontSize: "1.2em",
-										fontFamily: "Open Sans",
+										fontSize: '1.2em',
+										fontFamily: 'Open Sans',
 									}}
-									onClick={() => navigate.push("/blogs")}
+									onClick={() => navigate.push('/blogs')}
 								>
 									Blogs
 								</List.Item>
 								<List.Item
-									as="a"
+									as='a'
 									style={{
 										color: colors.grey,
-										fontSize: "1.2em",
-										fontFamily: "Open Sans",
+										fontSize: '1.2em',
+										fontFamily: 'Open Sans',
 									}}
-									onClick={() => navigate.push("/teams")}
+									onClick={() => navigate.push('/teams')}
 								>
 									teams
 								</List.Item>
 								<List.Item
-									as="a"
+									as='a'
 									style={{
 										color: colors.grey,
-										fontSize: "1.2em",
-										fontFamily: "Open Sans",
+										fontSize: '1.2em',
+										fontFamily: 'Open Sans',
 									}}
-									onClick={() => navigate.push("/sportsfete")}
+									onClick={() => navigate.push('/sportsfete')}
 								>
 									Sportsfete
 								</List.Item>
@@ -164,7 +164,7 @@ const Footer = () => {
 					</Grid.Column>
 					<Grid.Column
 						style={{
-							textAlign: "center",
+							textAlign: 'center',
 						}}
 					>
 						<div
@@ -175,25 +175,25 @@ const Footer = () => {
 							<h1
 								style={{
 									color: colors.secondary,
-									fontSize: "1.5em",
-									fontFamily: "Open Sans",
+									fontSize: '1.5em',
+									fontFamily: 'Open Sans',
 								}}
 							>
 								follow us
 							</h1>
 							<Button
 								circular
-								color="facebook"
-								icon="facebook"
-								href="https://m.facebook.com/SportsNITT/"
-								target="_blank"
+								color='facebook'
+								icon='facebook'
+								href='https://m.facebook.com/SportsNITT/'
+								target='_blank'
 							/>
 							<Button
 								circular
-								color="instagram"
-								icon="instagram"
-								href="https://www.instagram.com/sportscouncil.nitt/"
-								target="_blank"
+								color='instagram'
+								icon='instagram'
+								href='https://www.instagram.com/sportscouncil.nitt/'
+								target='_blank'
 							/>
 						</div>
 					</Grid.Column>
@@ -202,10 +202,10 @@ const Footer = () => {
 				<p
 					style={{
 						color: colors.grey,
-						fontSize: "1em",
-						fontFamily: "Open Sans",
-						textAlign: "center",
-						paddingBottom: "10px",
+						fontSize: '1em',
+						fontFamily: 'Open Sans',
+						textAlign: 'center',
+						paddingBottom: '10px',
 					}}
 				>
 					NIT Trichy Sports Contigent. All rights reserved
