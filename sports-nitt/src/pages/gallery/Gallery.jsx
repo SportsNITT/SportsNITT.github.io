@@ -13,9 +13,6 @@ import NavbarMain from '../../components/Navbar';
 import Event from './Event';
 import images from '../../assets/content/gallery.json';
 import './gallery.css';
-import { colors } from '../../utils/colors';
-// import LazyLoad from 'react-lazyload';
-import LazyLoad from 'react-lazy-load';
 
 export default function Gallery() {
 	const [eventName, setEventName] = useState("Sportsfete '18");
@@ -26,6 +23,8 @@ export default function Gallery() {
 	const [isVisible, setIsVisible] = useState(false);
 	const [pageCount, setPageCount] = useState(0);
 	const [activePage, setActivePage] = useState(1);
+	const [isClicked, setisClicked] = useState(false);
+	const [selectedImg, setselectedImg] = useState('');
 
 	useEffect(() => {
 		setActivePage(1);
@@ -96,6 +95,10 @@ export default function Gallery() {
 											loading='lazy'
 											width={'100%'}
 											className='gallery_img'
+											onClick={() => {
+												setselectedImg(ele.src);
+												setisClicked((prev) => !prev);
+											}}
 										/>
 									</div>
 								))}
@@ -131,12 +134,10 @@ export default function Gallery() {
 					>
 						<Pagination
 							boundaryRange={0}
-							defaultActivePage={1}
 							activePage={activePage}
 							siblingRange={1}
 							totalPages={pageCount}
 							onPageChange={(e, data) => {
-								console.log(data);
 								setActivePage(data.activePage);
 							}}
 						/>
@@ -144,6 +145,27 @@ export default function Gallery() {
 				)}
 			</Container>
 			<Footer />
+			{isClicked && (
+				<div id='image-viewer'>
+					<span
+						className='close'
+						onClick={() => {
+							setisClicked((prev) => !prev);
+							setselectedImg('');
+						}}
+					>
+						&times;
+					</span>
+					{selectedImg !== '' && (
+						<img
+							className='modal-content'
+							id='full-image'
+							alt={'Viewer'}
+							src={selectedImg}
+						/>
+					)}
+				</div>
+			)}
 		</div>
 	);
 }
