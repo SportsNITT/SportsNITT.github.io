@@ -11,6 +11,7 @@ import ComingSoon from './pages/ComingSoon';
 import Team from './pages/teamsPage/Team';
 import Event from './pages/gallery/Event';
 import Gallery from './pages/gallery/Gallery';
+import Blog from './pages/blogs/Blog';
 
 const Routing = () => {
 	return (
@@ -18,11 +19,11 @@ const Routing = () => {
 			<Switch>
 				<Route exact path='/' component={App} />
 				<Route path='/achievements' component={ComingSoon} />
-				<Route path='/blogs' component={ComingSoon} />
-				<Route path='/gallery' component={Gallery} />
-				<Route path='/teams' component={Team} />
+				<Route path='/blogs' component={Blog} />
 				<Route path='/events' component={Event} />
+				<Route path='/gallery' component={Gallery} />
 				<Route path='/sportsfete' component={Sportsfete} />
+				<Route path='/teams' component={Team} />
 			</Switch>
 		</Router>
 	);
