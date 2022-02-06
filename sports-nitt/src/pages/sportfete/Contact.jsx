@@ -56,7 +56,7 @@ export default function Contact({ contact, links }) {
 								fontFamily: "Open Sans",
 							}}
 						>
-							follow us
+							follow Sportsfete
 						</h1>
 						<Button
 							circular
