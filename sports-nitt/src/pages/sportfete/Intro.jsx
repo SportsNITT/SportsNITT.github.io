@@ -12,11 +12,12 @@ export default function Intro({ title, desc, formLink }) {
 				{/* <button href={formLink} class="btn-default">
 					Join
 				</button> */}
-				<form action={formLink}>
+				{/* <form action={formLink}> */}
+				<form>
 					<input
-						formTarget="_blank"
+						// formTarget="_blank"
 						type="submit"
-						value="Join"
+						value="Coming Soon...."
 						class="btn-default"
 					/>
 				</form>

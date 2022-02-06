@@ -20,10 +20,10 @@ const Routing = () => {
 				<Route exact path='/' component={App} />
 				<Route path='/achievements' component={ComingSoon} />
 				<Route path='/blogs' component={Blog} />
-				<Route path='/events' component={Event} />
 				<Route path='/gallery' component={Gallery} />
-				<Route path='/sportsfete' component={Sportsfete} />
+				<Route path='/infrastructure' component={ComingSoon} />
 				<Route path='/teams' component={Team} />
+				<Route path='/sportsfete' component={Sportsfete} />
 			</Switch>
 		</Router>
 	);

@@ -5,7 +5,7 @@ import content from "../../assets/content/sportsfete.json";
 import sportsfetelogo from "../../assets/images/sportsfete-logo-alone.png";
 import { colors } from "../../utils/colors";
 
-export default function Inductions() {
+export default function SportsfeteInductions() {
 	const navigate = useHistory();
 	return (
 		<div

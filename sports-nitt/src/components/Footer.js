@@ -144,9 +144,31 @@ const Footer = () => {
 										fontSize: '1.2em',
 										fontFamily: 'Open Sans',
 									}}
+									onClick={() => navigate.push('/gallery')}
+								>
+									Gallery
+								</List.Item>
+								<List.Item
+									as='a'
+									style={{
+										color: colors.grey,
+										fontSize: '1.2em',
+										fontFamily: 'Open Sans',
+									}}
+									onClick={() => navigate.push('/infrastructure')}
+								>
+									Infrastructure
+								</List.Item>
+								<List.Item
+									as='a'
+									style={{
+										color: colors.grey,
+										fontSize: '1.2em',
+										fontFamily: 'Open Sans',
+									}}
 									onClick={() => navigate.push('/teams')}
 								>
-									teams
+									Teams
 								</List.Item>
 								<List.Item
 									as='a'
@@ -208,7 +230,7 @@ const Footer = () => {
 						paddingBottom: '10px',
 					}}
 				>
-					NIT Trichy Sports Contigent. All rights reserved
+					NIT Trichy Sports Contingent (Feb 2022). All rights reserved
 				</p>
 			</Container>
 		</footer>

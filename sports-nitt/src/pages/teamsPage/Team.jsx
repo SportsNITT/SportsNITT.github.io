@@ -22,11 +22,13 @@ export default function Team() {
 			<NavbarMain />
 			<Container
 				style={{
+					textAlign: "center",
 					backgroundColor: "#222",
 					marginTop: "5%",
 					marginBottom: "5%",
 				}}
-			>
+			>	
+				<h1 style={{ color: "white",fontSize: 50 }}>Sports Teams in NITT</h1>
 				{open && showContent !== {} && (
 					<TeamsModal open={open} setOpen={setOpen} team={showContent} />
 				)}

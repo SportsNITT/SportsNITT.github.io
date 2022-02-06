@@ -17,7 +17,7 @@ export default function Video({ utube, title, data }) {
 			<Winners data={data} />
 			<ReactPlayer
 				url={utube}
-				playing={true}
+				playing={false}
 				muted
 				width={"100%"}
 				height={window.innerWidth <= 480 ? "360px" : "600px"}

@@ -91,17 +91,6 @@ export default function NavbarMain() {
 							Blogs
 						</Nav.Link>
 						<Nav.Link
-							href='/teams'
-							style={{
-								color: activeLink == 'teams' ? '#ff8b00' : 'white',
-								paddingInline: 30,
-								fontFamily: 'Open Sans',
-								fontSize: '1.3em',
-							}}
-						>
-							Teams
-						</Nav.Link>
-						<Nav.Link
 							href='/gallery'
 							style={{
 								color: activeLink == 'gallery' ? '#ff8b00' : 'white',
@@ -111,6 +100,28 @@ export default function NavbarMain() {
 							}}
 						>
 							Gallery
+						</Nav.Link>
+						<Nav.Link
+							href='/infrastructure'
+							style={{
+								color: activeLink == 'infrastructure' ? '#ff8b00' : 'white',
+								paddingInline: 30,
+								fontFamily: 'Open Sans',
+								fontSize: '1.3em',
+							}}
+						>
+							Infrastructure
+						</Nav.Link>
+						<Nav.Link
+							href='/teams'
+							style={{
+								color: activeLink == 'teams' ? '#ff8b00' : 'white',
+								paddingInline: 30,
+								fontFamily: 'Open Sans',
+								fontSize: '1.3em',
+							}}
+						>
+							Teams
 						</Nav.Link>
 						<Nav.Link
 							href='/sportsfete'

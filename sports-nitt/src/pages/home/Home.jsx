@@ -5,7 +5,8 @@ import NavbarMain from "../../components/Navbar";
 import { colors } from "../../utils/colors";
 import About from "./About";
 import CarouselImg from "./Carousel";
-import Inductions from "./Inductions";
+import SportsfeteInductions from "./SportsfeteInductions";
+import Inductions from "./inductions";
 import Stats from "./Stats";
 
 export default function Home() {
@@ -17,7 +18,7 @@ export default function Home() {
 				{/* <Video /> */}
 				<About />
 				<Stats />
-				<Inductions />
+				<Inductions utube={"https://www.youtube.com/watch?v=5d70n6jzoVE"}/>
 			</Container>
 			<Footer />
 		</>

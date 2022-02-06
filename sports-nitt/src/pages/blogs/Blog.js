@@ -23,7 +23,7 @@ export default function Blog() {
 					margin: 15,
 				}}
 			>
-				<h1 style={{ fontSize: 50 }}>Blog</h1>
+				<h1 style={{ fontSize: 50 }}>Blogs</h1>
 			</div>
 
 			<main style={{ margin: 5 }}>
