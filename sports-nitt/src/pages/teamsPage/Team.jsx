@@ -28,7 +28,7 @@ export default function Team() {
 					marginBottom: "5%",
 				}}
 			>	
-				<h1 style={{ color: "white",fontSize: 50 }}>Sports Teams in NITT</h1>
+				<h1 style={{ color: "white",fontSize: 50 }}>Sports Teams of NITT</h1>
 				{open && showContent !== {} && (
 					<TeamsModal open={open} setOpen={setOpen} team={showContent} />
 				)}

@@ -23,8 +23,8 @@ import { colors } from '../../utils/colors';
 
 const EVENTS = [
 	"Sportsfete '18",
-	"Spradha '18",
-	"Spradha '19",
+	"Spardha '18",
+	"Spardha '19",
 	"Sportsfete '19",
 ];
 
