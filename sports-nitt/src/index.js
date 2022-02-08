@@ -12,18 +12,20 @@ import Team from './pages/teamsPage/Team';
 import Event from './pages/gallery/Event';
 import Gallery from './pages/gallery/Gallery';
 import Blog from './pages/blogs/Blog';
+import FourOFour from './pages/FourOFour';
 
 const Routing = () => {
 	return (
 		<Router>
 			<Switch>
 				<Route exact path='/' component={App} />
-				<Route path='/achievements' component={ComingSoon} />
-				<Route path='/blogs' component={Blog} />
-				<Route path='/gallery' component={Gallery} />
-				<Route path='/infrastructure' component={ComingSoon} />
-				<Route path='/teams' component={Team} />
-				<Route path='/sportsfete' component={Sportsfete} />
+				<Route exact path='/achievements' component={ComingSoon} />
+				<Route exact path='/blogs' component={Blog} />
+				<Route exact path='/gallery' component={Gallery} />
+				<Route exact path='/infrastructure' component={ComingSoon} />
+				<Route exact path='/teams' component={Team} />
+				<Route exact path='/sportsfete' component={Sportsfete} />
+				<Route path='*' component={FourOFour} />
 			</Switch>
 		</Router>
 	);
