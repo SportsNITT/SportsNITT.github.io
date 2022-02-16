@@ -29,6 +29,7 @@ export default function Team() {
 				}}
 			>	
 				<h1 style={{ color: "white",fontSize: 50 }}>Sports Teams of NITT</h1>
+				<p style={{ color: "white"}}>Click or hover over each sport to know more.</p>
 				{open && showContent !== {} && (
 					<TeamsModal open={open} setOpen={setOpen} team={showContent} />
 				)}
