@@ -19,6 +19,8 @@ export default function Home() {
 				<About />
 				<Stats />
 				<Inductions utube={"https://www.youtube.com/watch?v=5d70n6jzoVE"}/>
+				<hr/>
+				<SportsfeteInductions/>
 			</Container>
 			<Footer />
 		</>

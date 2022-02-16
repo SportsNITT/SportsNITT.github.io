@@ -17,8 +17,8 @@ export default function Sportsfete() {
 		<div style={{ backgroundColor: "#222" }}>
 			<NavbarMain />
 			<Intro
-				title="SportsFete'22"
-				desc={sportsfete.introduction}
+				title="SportsFete'22 Inductions"
+				desc={sportsfete.inductions_description}
 				formLink={sportsfete.inductions_form_link}
 			/>
 
