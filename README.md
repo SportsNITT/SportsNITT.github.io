@@ -2,15 +2,17 @@
 
 Official [NITT sports contingent website](https://sportscontingent.nitt.edu)
 
+Developed using vscode editor, use vscode settings from [.vscode](/.vscode) folder
+
 Website developed using create-react app check [README here](/sports-nitt/README.md) for create-react-app
 
-node app code is inside [sports-nitt](/sports-nitt/) folder
+Node app code is inside [sports-nitt](/sports-nitt/) folder
 
-project tested using npm
+Project tested using npm
 
-asset images are stored in [images](/images/) folder
+Asset images are stored in [images](/images/) folder
 
-other asset images are stored in google drive and accessed using google drive API to display in site.
+Other asset images are stored in google drive and accessed using google drive API to display in site.
 
 ## Local Setup
 
@@ -20,7 +22,9 @@ other asset images are stored in google drive and accessed using google drive AP
 
 ## Deploy to Github-pages
 
-react github pages has been setup in node-js code, npm locally can directly deploy in github pages using the command ```npm run deploy```
+Website hosted in [Github-pages](https://sportsnitt.github.io)
+
+React github pages has been setup in node-js code, npm locally can directly deploy in github pages using the command ```npm run deploy```
 
 ## Build the react project
 
