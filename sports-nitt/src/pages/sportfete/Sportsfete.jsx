@@ -17,7 +17,7 @@ export default function Sportsfete() {
 		<div style={{ backgroundColor: "#222" }}>
 			<NavbarMain />
 			<Intro
-				title="SportsFete'22 Inductions"
+				title="SportsFete'23 Inductions"
 				desc={sportsfete.inductions_description}
 				formLink={sportsfete.inductions_form_link}
 			/>
@@ -30,6 +30,15 @@ export default function Sportsfete() {
 				<About />
 				<Sports data={sportsfete.sports} />
 				<Teams data={sportsfete.teams} />
+				<Video
+					drive={sportsfete["SF'22_aftermovie_link"]}
+					title={"Sportsfete'22"}
+					data={sportsfete.winners_2022}
+				/>
+				<div>
+					<iframe  src={sportsfete["SF'22_aftermovie_link"]}  width={"100%"}
+				height={window.innerWidth <= 480 ? "360px" : "600px"} title='SportsFete`22 Aftermovie' allow="autoplay"></iframe>
+				</div>
 				<Video
 					utube={sportsfete["SF'19_aftermovie_link"]}
 					title={"Sportsfete'19"}

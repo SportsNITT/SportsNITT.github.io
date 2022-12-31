@@ -8,6 +8,12 @@
 		"Department of Architecture"
 	],
 	"SF'18_aftermovie_link": "https://www.youtube.com/watch?v=NYk0Y6TwgDc",
+	"winners_2022": [
+		"Department of Architecture",
+		"Masters of Science in Engineering",
+		"Department of Chemical Engineering"
+	],			
+	"SF'22_aftermovie_link": "https://drive.google.com/file/d/1qHVeOgJT_1KGm7DjCK6mZTUUAkR21Z12/preview",
 	"winners_2019": [
 		"Department of Production Engineering",
 		"Department of Mechanical Engineering",
@@ -37,37 +43,41 @@
 		"Weightlifting"
 	],
 	"inductions_title": " Sportsfete Inductions 2021-22",
-	"inductions_description": "The team inductions for Sportsfete’22 is here and with it your chance to be a part of organizing one of the most exciting fests in campus. We are looking for enthusiastic students to make Sportsfete’22 a grand success especially after our long spell off-campus. We hope to see you all soon and we promise that you’re in for thrilling journey!",
+	"inductions_description": "The team inductions for Sportsfete’23 is here and with it your chance to be a part of organizing one of the most exciting fests in campus. We are looking for enthusiastic students to make Sportsfete’23 a grand success especially after our long spell off-campus. We hope to see you all soon and we promise that you’re in for thrilling journey!",
 	"inductions_form_link": "https://forms.gle/8k65tRay37AeHRya8",
 	"teams": [
 		{
 			"name": "Marketing",
-			"JD": "The Marketing team is the backbone of any fest. We are the ones who determine the quality of the fest. Without us, a fest can't bloom because of the meagre initial budget. We welcome all the marketing enthusiasts who want to gain hands-on experience of corporate world starting from associating with companies for successful converts to teaming up with all the other teams. As part of the marketing team, you will find and contact companies regarding sponsorship opportunities, draft sponsorship proposals, work with the POC’s to ensure that the deliverables from both sides are met and more. So, let's hop on for the thrilling journey to make Sportsfete'22 great with great sponsors."
+			"JD": "The backbone of the fest, the Sportsfete Marketing team holds the key responsibility of bringing in sponsors and making sure that the fest is a success. A part of our key roles and responsibilities include finding leads and contacting companies to successfully convert them into sponsors, drafting sponsorship proposals, and working with the POCs to ensure that the deliverables from both sides are met, and more. We are on the lookout for marketing enthusiasts who can thrive in the corporate culture, from associating with companies for successful converts to collaborating with all the other teams. Join us to have a fun and thrilling journey helping Sportsfete reach its zenith "
 		},
 		{
 			"name": "Media & Publicity",
-			"JD": "The Media & Publicity team is all about publicizing Sportsfete through our various social  media handles and maximizing our reach and engagement in the NITT campus. Apart from regular updates about Sportsfete and its events we also post about sports-related news and facts. We also handle all the general communications released by Sportsfete to the students. We expect our members to ideate and execute innovative & effective ideas for increasing the number of followers and to make our page more interesting and active."
+			"JD": "The Media & Publicity (M&P) team is all about publicizing Sportsfete through our various social media handles and maximizing our reach and engagement within the campus. Apart from regular updates about Sportsfete and its events, we also post sports-related news and facts. We handle all the general communications released by Sportsfete to the students as well. We expect our members to ideate and execute innovative ideas in order to increase our brand value and make our socials more interesting and active."
 		},
 		{
 			"name": "Creative",
-			"JD": "The content and design team works as the bridge between the backstage crew of Sportsfete and the students. It is Sportsfete's attempt as the creative outlet to showcase the events that happen in the form of penned-down content and posters. The team deals with all forms of content creation- writing articles, reports and media posts, emceeing, interviewing, and designing posters and illustrations. A creative mind and the ability to put those thoughts into words is the only prerequisite."
+			"JD": "Sportsfete content team is the creative outlet of the • fest- we showcase the vigour of the fest in the form of penned-down content and commentary. We handle all things that require generating content-writing articles, poems and media posts, emceeing for various events and commentary for live matches. A creative spark, an eager mind with the ability to put those thoughts into words and a knack for speaking is all we need as we look forward to welcoming new blood aboard our team. If you are looking for a community that will help you unleash your creativity and express your perspective to the world, Sportsfete Content is the team for you "
 		},
 		{
 			"name": "Ambience",
-			"JD": "The Ambience team is entrusted to develop the vibe of a space formed of a cohesive concept that ultimately makes people feel welcome and inspired to enjoy the space in a way that they expected, and the way that the proprietor intended. We are looking for prolific, ingenious and unconventional minds to ideate, execute and realize the image of the fest that we want to present. Our work brings spaces to life where students want to be for not just one type of event, but many. With that motto we call ourselves the blue-sky thinkers!"
+			"JD": "The Ambience team is entrusted with the task of M shaping the vibe of the fest, developed from a cohesive theme that ultimately makes people feel B welcome and inspired to enjoy the campus in a way that they intended. EWe are looking for prolific, ingenious and unconventional minds to ideate, execute and N realize the image of the fest that we want to present. Our work brings spaces to life where C students want to actively be a part of. With that • motto, we call ourselves the blue-sky thinkers! "
 		},
 		{
 			"name": "Events",
-			"JD": "The Sportsfete Events team organizes a variety of informal events. We are the 'heartbeat' of Sportsfete and are involved in the ideation, creation, and implementation of various exciting events. As the sun falls, we begin our task. Do you have an idea which you want to develop and present in front of 200 people? Events is your team to be in!"
+			"JD": "The Sportsfete Events team organizes a variety of informal events. We are the 'heartbeat' of Sportsfete and are involved in the ideation, creation, and implementation of various exciting events and shows. We are on the lookout for imaginative minds who are willing to give their best to see their ideas turn into life "
 		},
 		{
 			"name": "Organizing Committee",
-			"JD": "The Organizing committee of SportsFete, popularly known as the “Backbone of SportsFete”, is the team that provides the background support necessary to keep the fest up and running in a healthy state. Most of the setups and external infrastructures seen during SportsFete are raised by the organizing committee. Being a huge team, we have diversity in people which gives you a wide set of skills to polish and a good network of people. Some of the most important take away are Improved decision making and communication skills, situation handling and being part of a huge team."
+			"JD": "The Organizing Committee (0C) is the team that provides the background support necessary to keep the fest up and running. Most of the setups and temporary infrastructures are seen during Sportsfete are put together by the organizing committee. Being a huge team, we value diversity, which gives you a wide set of skills and a good network of people. Some of the most important takeaways are improved decision-making and communication skills, situation handling, and networking ."
+		},
+		{
+			"name": "Design",
+			"JD":"The design team for the Sportsfete sports fest at NITT is responsible for creating a variety of visual materials for the event. This includes designing the logo for the fest, creating a background poster for Gform, designing t-shirts for various roles such as core/head, coordinators, and department representatives, and creating jackets and jerseys for the sports contingents. The team is also responsible for designing ID cards for the fest, as well as maps and banners for the marathon and inauguration and valediction events. They will also create a banner for the backstage area of the inauguration and valediction events, and design certificates for participants. The design team plays a crucial role in helping to create a cohesive and visually appealing look for the fest, and in helping to promote and celebrate the event."
 		}
 	],
 	"sportsfete_chairman": {
-		"name": "Moneesh B",
-		"contact": "+91 73395 23549"
+		"name": "Gokul S",
+		"contact": "+91 72004 12300"
 	},
 	"social_media": {
 		"instagram": "https://www.instagram.com/sportsfete.nitt/",

@@ -69,10 +69,11 @@ const Footer = () => {
 								fontFamily: 'Open Sans',
 							}}
 						>
-							Sports Secretary - Abhishek Shah <br />
-							Phone - +91 70576 46485 <br />
+							Sports Secretary - Pranav A Joshi <br />
+							Phone - +91 93071 13487 <br />
+							
 							<br />
-							Sports Complex
+							 New Indoor Sports Complex,
 							<br />
 							National Institute of Technology Tiruchirappalli - 620015 Tamil
 							Nadu, INDIA
@@ -115,7 +116,7 @@ const Footer = () => {
 								>
 									Home
 								</List.Item>
-								<List.Item
+								{/* <List.Item
 									as='a'
 									style={{
 										color: colors.grey,
@@ -125,8 +126,8 @@ const Footer = () => {
 									onClick={() => navigate.push('/achievements')}
 								>
 									Achievements
-								</List.Item>
-								<List.Item
+								</List.Item> */}
+								{/* <List.Item
 									as='a'
 									style={{
 										color: colors.grey,
@@ -136,7 +137,7 @@ const Footer = () => {
 									onClick={() => navigate.push('/blogs')}
 								>
 									Blogs
-								</List.Item>
+								</List.Item> */}
 								<List.Item
 									as='a'
 									style={{
@@ -148,7 +149,7 @@ const Footer = () => {
 								>
 									Gallery
 								</List.Item>
-								<List.Item
+								{/* <List.Item
 									as='a'
 									style={{
 										color: colors.grey,
@@ -158,7 +159,7 @@ const Footer = () => {
 									onClick={() => navigate.push('/infrastructure')}
 								>
 									Infrastructure
-								</List.Item>
+								</List.Item> */}
 								<List.Item
 									as='a'
 									style={{
@@ -180,6 +181,17 @@ const Footer = () => {
 									onClick={() => navigate.push('/sportsfete')}
 								>
 									Sportsfete
+								</List.Item>
+								<List.Item
+									as='a'
+									style={{
+										color: colors.grey,
+										fontSize: '1.2em',
+										fontFamily: 'Open Sans',
+									}}
+									onClick={() => navigate.push('/contacts')}
+								>
+									Contacts
 								</List.Item>
 							</List>
 						</div>
