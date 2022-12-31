@@ -19,7 +19,7 @@ export default function About() {
 					</h1> */}
 					<p
 						style={{
-							textAlign: "center",
+							textAlign: "justify",
 							color: colors.grey,
 							fontSize: "1.5em",
 							fontFamily: "Open Sans",
