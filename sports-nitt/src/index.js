@@ -9,6 +9,7 @@ import 'semantic-ui-css/semantic.min.css';
 import Sportsfete from './pages/sportfete/Sportsfete';
 import ComingSoon from './pages/ComingSoon';
 import Team from './pages/teamsPage/Team';
+import Contacts from "./pages/contacts/Contact"
 import Event from './pages/gallery/Event';
 import Gallery from './pages/gallery/Gallery';
 import Blog from './pages/blogs/Blog';
@@ -25,6 +26,7 @@ const Routing = () => {
 				<Route exact path='/infrastructure' component={ComingSoon} />
 				<Route exact path='/teams' component={Team} />
 				<Route exact path='/sportsfete' component={Sportsfete} />
+				<Route exact path='/contacts' component={Contacts} />
 				<Route path='*' component={FourOFour} />
 			</Switch>
 		</Router>

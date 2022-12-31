@@ -134,7 +134,7 @@ export default function NavbarMain() {
 						>
 							Sportsfete
 						</Nav.Link>
-						{/* *************** */}
+
 						<Nav.Link
 							href='/contacts'
 							style={{
