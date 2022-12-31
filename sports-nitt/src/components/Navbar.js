@@ -134,6 +134,17 @@ export default function NavbarMain() {
 						>
 							Sportsfete
 						</Nav.Link>
+						<Nav.Link
+							href='/contacts'
+							style={{
+								color: activeLink == 'contacts' ? '#ff8b00' : 'white',
+								paddingInline: 30,
+								fontFamily: 'Open Sans',
+								fontSize: '1.3em',
+							}}
+						>
+							Contacts
+						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
 				{/* <div
