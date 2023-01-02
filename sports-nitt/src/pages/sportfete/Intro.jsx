@@ -7,7 +7,14 @@ export default function Intro({ title, desc, formLink }) {
 		<div class="hero-image">
 			<div class="hero-text">
 				{/* <img src={logo} alt="logo" /> */}
-				<h1>{title}</h1>
+				<h1 
+				style={{
+					textAlign: "center",
+					fontSize: "2.5rem",
+					// margin: "5% 0",
+					color: "#fff",
+				}}
+				>{title}</h1>
 				<p>{desc}</p>
 				{/* <button href={formLink} class="btn-default">
 					Join
