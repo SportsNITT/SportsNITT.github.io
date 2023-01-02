@@ -62,20 +62,18 @@ const Footer = () => {
 						</h1>
 						<p
 							style={{
-								textAlign: 'center',
+								textAlign: 'left',
 								wordWrap: 'break-word',
 								color: colors.grey,
 								fontSize: '1.2em',
 								fontFamily: 'Open Sans',
 							}}
-						>
-							Sports Secretary - Pranav A Joshi <br />
-							Phone - +91 93071 13487 <br />
-							
+						>					
+							Sports Counsil room,
 							<br />
-							 New Indoor Sports Complex,
+							New Indoor Sports Complex,
 							<br />
-							National Institute of Technology Tiruchirappalli - 620015 Tamil
+							National Institute of Technology Tiruchirappalli - 620015, Tamil
 							Nadu, INDIA
 							<br />
 							<a href='mailto:sports.nitt@gmail.com'>

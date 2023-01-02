@@ -30,24 +30,26 @@ export default function Sportsfete() {
 				<About />
 				<Sports data={sportsfete.sports} />
 				<Teams data={sportsfete.teams} />
-				<Video
-					drive={sportsfete["SF'22_aftermovie_link"]}
-					title={"Sportsfete'22"}
-					data={sportsfete.winners_2022}
-				/>
 				<div>
 					<iframe  src={sportsfete["SF'22_aftermovie_link"]}  width={"100%"}
 				height={window.innerWidth <= 480 ? "360px" : "600px"} title='SportsFete`22 Aftermovie' allow="autoplay"></iframe>
 				</div>
+				<h1 style={{textAlign:"center", color: "#FF8B00",margin: "50px 0px 0px 0px"}}>PAST&nbsp; WINNERS</h1>
+				<Video
+					drive={sportsfete["SF'22_aftermovie_link"]}
+					title={"Sportsfete'22 Winner's"}
+					data={sportsfete.winners_2022}
+				/>
+				
 				<Video
 					utube={sportsfete["SF'19_aftermovie_link"]}
-					title={"Sportsfete'19"}
+					title={"Sportsfete'19 Winner's"}
 					data={sportsfete.winners_2019}
 				/>
 				{/* <Winners data={sportsfete.winners_2019} /> */}
 				<Video
 					utube={sportsfete["SF'18_aftermovie_link"]}
-					title={"Sportsfete'18"}
+					title={"Sportsfete'18 Winner's"}
 					data={sportsfete.winners_2018}
 				/>
 				{/* <Winners data={sportsfete.winners_2018} /> */}
@@ -60,3 +62,6 @@ export default function Sportsfete() {
 		</div>
 	);
 }
+
+
+// text-align: center; color: rgb(255, 139, 0);

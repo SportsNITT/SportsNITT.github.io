@@ -43,7 +43,7 @@ export default function Contact() {
           }}
           className="contact-card-title"
         >
-          Sportsfete Core'23
+          SPORTS CORE'23
         </p>
         <div
             style={{
