@@ -11,6 +11,8 @@ import "../../App.css";
 import Video from "./Video";
 import Contact from "./Contact";
 import Winners from "./Winners";
+import { colors } from "../../utils/colors";
+
 
 export default function Sportsfete() {
 	return (
@@ -30,14 +32,36 @@ export default function Sportsfete() {
 				<About />
 				<Sports data={sportsfete.sports} />
 				<Teams data={sportsfete.teams} />
-				<div>
+
+				<div style={{ margin: "5% 0" }}>
+				<h1
+				style={{
+					fontSize: "2.5rem",
+					margin: "3% 0",
+					textAlign: "center",
+					color: colors.secondary,
+				}}
+			>
+				{"SportsFete'22 Aftermovie"}
+			</h1>
 					<iframe  src={sportsfete["SF'22_aftermovie_link"]}  width={"100%"}
 				height={window.innerWidth <= 480 ? "360px" : "600px"} title='SportsFete`22 Aftermovie' allow="autoplay"></iframe>
 				</div>
-				<h1 style={{textAlign:"center", color: "#FF8B00",margin: "50px 0px 0px 0px"}}>PAST&nbsp; WINNERS</h1>
+				
+				<h1
+				style={{
+					textAlign: "center",
+					fontSize: "2.5rem",
+					// margin: "5% 0",
+					color: colors.secondary,
+				}}
+			>
+				{"Past Winners"}
+			</h1>
 				<Video
 					drive={sportsfete["SF'22_aftermovie_link"]}
-					title={"Sportsfete'22 Winner's"}
+					title={"Sportsfete'22"}
+
 					data={sportsfete.winners_2022}
 				/>
 				
@@ -53,10 +77,10 @@ export default function Sportsfete() {
 					data={sportsfete.winners_2018}
 				/>
 				{/* <Winners data={sportsfete.winners_2018} /> */}
-				<Contact
+				{/* <Contact
 					contact={sportsfete.sportsfete_chairman}
 					links={sportsfete.social_media}
-				/>
+				/> */}
 			</Container>
 			<Footer />
 		</div>

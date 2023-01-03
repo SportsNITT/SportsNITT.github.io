@@ -48,32 +48,34 @@
 	"teams": [
 		{
 			"name": "Marketing",
-			"JD": "The backbone of the fest, the Sportsfete Marketing team holds the key responsibility of bringing in sponsors and making sure that the fest is a success. A part of our key roles and responsibilities include finding leads and contacting companies to successfully convert them into sponsors, drafting sponsorship proposals, and working with the POCs to ensure that the deliverables from both sides are met, and more. We are on the lookout for marketing enthusiasts who can thrive in the corporate culture, from associating with companies for successful converts to collaborating with all the other teams. Join us to have a fun and thrilling journey helping Sportsfete reach its zenith "
+			"JD": "The backbone of the fest, Sportsfete Marketing team holds the key responsibility of bringing in sponsors and making sure that the fest is a success. A part of our key roles and responsibilities include finding leads and contacting companies to successfully convert them into sponsors, draft sponsorship proposals and work with the POC’s to ensure that the deliverables from both sides are met and more. We are on the lookout for marketing enthusiasts who can thrive in the corporate culture, from associating with companies for successful converts to collaborating with all the other teams. Join us to have a fun and thrilling journey helping Sportsfete reach its zenith. "
+		},
+		{
+
+			"name": "Media & Publicity",
+			"JD": "The Media & Publicity team is all about publicizing Sportsfete through our various social media handles and maximizing our reach and engagement within the campus. Apart from regular updates about Sportsfete and its events, we also post sports-related news and facts. We handle all the general communications released by Sportsfete to the students as well. We expect our members to ideate and execute innovative ideas in order to increase our brand value and to make our socials more interesting and active."
 		},
 		{
 			"name": "Content",
-			"JD": "Sportsfete content team is the creative outlet of the • fest- we showcase the vigour of the fest in the form of penned-down content and commentary. We handle all things that require generating content-writing articles, poems and media posts, emceeing for various events and commentary for live matches. A creative spark, an eager mind with the ability to put those thoughts into words and a knack for speaking is all we need as we look forward to welcoming new blood aboard our team. If you are looking for a community that will help you unleash your creativity and express your perspective to the world, Sportsfete Content is the team for you "
-		},
-		{
-			"name": "Media & Publicity",
-			"JD": "The Media & Publicity (M&P) team is all about publicizing Sportsfete through our various social media handles and maximizing our reach and engagement within the campus. Apart from regular updates about Sportsfete and its events, we also post sports-related news and facts. We handle all the general communications released by Sportsfete to the students as well. We expect our members to ideate and execute innovative ideas in order to increase our brand value and make our socials more interesting and active."
+			"JD": "Sportsfete content team is the creative outlet of the fest- we showcase the vigour of the fest in the form of penned-down content and commentary. We handle all things that require generating content- writing articles, poems and media posts, emceeing for various events and commentary for live matches. A creative spark, an eager mind with the ability to put those thoughts into words and a knack for speaking is all we need as we look forward to welcoming new blood aboard our team. If you are looking for a community that will help you unleash your creativity and express your perspective to the world, Sportsfete Content is the team for you." 
+      
 		},
 		
 		{
 			"name": "Ambience",
-			"JD": "The Ambience team is entrusted with the task of M shaping the vibe of the fest, developed from a cohesive theme that ultimately makes people feel B welcome and inspired to enjoy the campus in a way that they intended. EWe are looking for prolific, ingenious and unconventional minds to ideate, execute and N realize the image of the fest that we want to present. Our work brings spaces to life where C students want to actively be a part of. With that • motto, we call ourselves the blue-sky thinkers! "
+			"JD": "The Ambience team is entrusted with the task of shaping the vibe of the fest, developed from a cohesive theme that ultimately makes people feel welcome and inspired to enjoy the campus in a way that they intended. We are looking for prolific, ingenious and unconventional minds to ideate, execute and realize the image of the fest that we want to present. Our work brings spaces to life where students want to actively be a part of. With that motto, we call ourselves the blue-sky thinkers!"
 		},
 		{
 			"name": "Events",
-			"JD": "The Sportsfete Events team organizes a variety of informal events. We are the 'heartbeat' of Sportsfete and are involved in the ideation, creation, and implementation of various exciting events and shows. We are on the lookout for imaginative minds who are willing to give their best to see their ideas turn into life "
+			"JD": "The Sportsfete Events team organizes a variety of informal events. We are the 'heartbeat' of Sportsfete and are involved in the ideation, creation, and implementation of various exciting events and shows. We are on the lookout for imaginative minds who are willing to give their best to see their ideas turn into life. "
 		},
 		{
 			"name": "Organizing Committee",
-			"JD": "The Organizing Committee (0C) is the team that provides the background support necessary to keep the fest up and running. Most of the setups and temporary infrastructures are seen during Sportsfete are put together by the organizing committee. Being a huge team, we value diversity, which gives you a wide set of skills and a good network of people. Some of the most important takeaways are improved decision-making and communication skills, situation handling, and networking ."
+			"JD": "The Organizing committee is the team that provides the background support necessary to keep the fest up and running. Most of the setups and temporary infrastructures seen during Sportsfete are put together by the organizing committee. Being a huge team, we value diversity, which gives you a wide set of skills and a good network of people. Some of the most important takeaways are improved decision making and communication skills, situation handling and networking."
 		},
 		{
 			"name": "Design",
-			"JD":"The design team for the Sportsfete sports fest at NITT is responsible for creating a variety of visual materials for the event. This includes designing the logo for the fest, creating a background poster for Gform, designing t-shirts for various roles such as core/head, coordinators, and department representatives, and creating jackets and jerseys for the sports contingents. The team is also responsible for designing ID cards for the fest, as well as maps and banners for the marathon and inauguration and valediction events. They will also create a banner for the backstage area of the inauguration and valediction events, and design certificates for participants. The design team plays a crucial role in helping to create a cohesive and visually appealing look for the fest, and in helping to promote and celebrate the event."
+			"JD":"The design team of Sportsfete creates vibrant visuals that bring art to life. With our ingenious imagination and originality, we paint powerful sights that rightly portray the spirit and intensity of the fest. While proficiency in graphic design, digital art, and video editing might help you earn brownie points, the only prerequisite we look for is willingness to learn and a passion to paint the perfect picture. "
 		}
 	],
 	"sportsfete_chairman": {
