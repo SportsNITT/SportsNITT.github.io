@@ -32,6 +32,7 @@ export default function Sportsfete() {
 				<About />
 				<Sports data={sportsfete.sports} />
 				<Teams data={sportsfete.teams} />
+
 				<div style={{ margin: "5% 0" }}>
 				<h1
 				style={{
@@ -60,18 +61,19 @@ export default function Sportsfete() {
 				<Video
 					drive={sportsfete["SF'22_aftermovie_link"]}
 					title={"Sportsfete'22"}
+
 					data={sportsfete.winners_2022}
 				/>
 				
 				<Video
 					utube={sportsfete["SF'19_aftermovie_link"]}
-					title={"Sportsfete'19"}
+					title={"Sportsfete'19 Winner's"}
 					data={sportsfete.winners_2019}
 				/>
 				{/* <Winners data={sportsfete.winners_2019} /> */}
 				<Video
 					utube={sportsfete["SF'18_aftermovie_link"]}
-					title={"Sportsfete'18"}
+					title={"Sportsfete'18 Winner's"}
 					data={sportsfete.winners_2018}
 				/>
 				{/* <Winners data={sportsfete.winners_2018} /> */}
@@ -84,3 +86,6 @@ export default function Sportsfete() {
 		</div>
 	);
 }
+
+
+// text-align: center; color: rgb(255, 139, 0);

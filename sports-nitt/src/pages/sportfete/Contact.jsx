@@ -34,8 +34,11 @@ export default function Contact({ contact, links }) {
 								fontFamily: "Open Sans",
 							}}
 						>
-							Sportsfete chairman - {contact.name} <br />
-							Phone - {contact.contact} <br />
+						    Email:&nbsp;
+							<a href='mailto:sports.nitt@gmail.com'>
+								sports.nitt@gmail.com
+							</a> <br />
+							
 						</p>
 					</Segment>
 				</Grid.Column>
