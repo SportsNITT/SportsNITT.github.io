@@ -22,7 +22,8 @@ export default function Contact() {
       <div
         style={{
           marginTop: "60px",
-          marginBottom: "10%",
+          padding:"20px",
+          marginBottom: "50px",
         }}
       >
         <p
@@ -38,7 +39,6 @@ export default function Contact() {
         <p
           style={{
             color: "white",
-            marginTop: "150px",
             fontWeight: "600",
           }}
           className="contact-card-title"
@@ -46,13 +46,7 @@ export default function Contact() {
           SPORTS CORE'23
         </p>
         <div
-            style={{
-                display:"flex",
-                justifyContent:"center",
-                
-                flexWrap:"wrap",
-                alignContent:"center"
-            }}
+            className="contact-div"
         >
             {coreContactDetails.map(person =>(
                 <ContactCard imgName={person.photo}  name={person.name} position={person.position}   phone={person.phone}/>
@@ -70,13 +64,7 @@ export default function Contact() {
           Students Activity and Sports Officer
         </p>
         <div
-            style={{
-                display:"flex",
-                justifyContent:"center",
-                
-                flexWrap:"wrap",
-                alignContent:"center"
-            }}
+            className="contact-div sas-contact-div"
         >
             {sasContactDetails.map(person =>(
                 <ContactCard imgName={person.photo}  name={person.name} position={person.position}   phone={person.phone}/>
