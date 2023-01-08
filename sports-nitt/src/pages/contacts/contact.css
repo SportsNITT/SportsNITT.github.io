@@ -28,6 +28,18 @@
 }
 .contact-card-title {
     font-size:45px;
+    margin-top: 150px;
+}
+.contact-div {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.sas-contact-div {
+    margin-bottom:0;
 }
 
 @media screen and (max-width: 1000px) {
@@ -44,7 +56,7 @@
 }
 @media screen and (max-width: 700px) {
     .contact-card {
-        scale:80%;
+        transform: scale(0.8);
         margin:-5px;
         margin-bottom:-60px;
         height:38rem;
@@ -59,7 +71,27 @@
     }
     .contact-card-title {
         font-size:30px;
+        margin-top: 80px;
     }
     
+    .sas-contact-div{
+        margin-bottom:100px;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    .contact-card-header {
+        font-size: 44px;
+
+    }
+    .contact-card-title {
+        font-size:25px;
+        margin-top: 80px;
+    }
+    
+    .sas-contact-div{
+        margin-bottom:100px;
+    }
     
 }
