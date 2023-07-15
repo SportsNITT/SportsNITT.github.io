@@ -162,5 +162,24 @@
 			"Volleyball_Lalanya.jpg",
 			"Volleyball_Varsha.jpg"
 		]
+	},
+	{
+		"teamName": "Yoga",
+		"captainNames": [
+			"Premkumar N",
+			" Arun Kumar S",
+			"Srinidhi Chirravuri",
+			"Lalanya Yarlagadda",
+			"Varsha"
+		],
+		"teamImgUrl": "Yoga%20Icon.svg",
+		"capImgUrls": [
+			"Volleyball_Premkumar.jpg",
+			"Volleyball_ArunKumar.jpg",
+			"Volleyball_Srinidhi.jpg",
+			"Volleyball_Lalanya.jpg",
+			"Volleyball_Varsha.jpg"
+		]
 	}
+	
 ]

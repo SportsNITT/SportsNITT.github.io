@@ -32,7 +32,7 @@ export default function Inductions({ utube }) {
 					fontFamily: "Open Sans",
 				}}
 			>
-			    Inductions'22-23,    Coming soon
+			    Inductions'23-24,    Coming soon
                 <br/>
                 Follow our social media for instant updates.
 			</p>

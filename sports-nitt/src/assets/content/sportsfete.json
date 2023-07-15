@@ -2,6 +2,12 @@
 	"introduction": "Sportsfete is the intra-college sports fest where the 14 departments of NIT Trichy, come together and participate in various sports in a quest to win the overall title. The competition happens over a span of 4 days during which a rampant crowd of 7000 odd people actively participate or cheer for their department teams bringing the campus to life like no other time of the year.",
 	"logo_png": "/sportsfete/PNG_logo_alone.png",
 	"named_logo": "logo_new.png",
+	"winners_2023": [
+		"Department of Production Engineering",
+		"Department of Researchers",
+		"Department of Electronics and communication Engineering"
+	],
+	"SF'23_aftermovie_link": "https://www.youtube.com/watch?v=8WsdpFDGvIg",
 	"winners_2018": [
 		"Department of Mechanical Engineering",
 		"Department of Production Engineering",
@@ -42,8 +48,8 @@
 		"Volleyball",
 		"Weightlifting"
 	],
-	"inductions_title": " Sportsfete Inductions 2022-23",
-	"inductions_description": "The team inductions for Sportsfete’23 is here and with it your chance to be a part of organizing one of the most exciting fests in campus. We are looking for enthusiastic students to make Sportsfete’23 a grand success especially after our long spell off-campus. We hope to see you all soon and we promise that you’re in for thrilling journey!",
+	"inductions_title": " Sportsfete Inductions 2023-24",
+	"inductions_description": "The team inductions for Sportsfete’24 is here and with it your chance to be a part of organizing one of the most exciting fests in campus. We are looking for enthusiastic students to make Sportsfete’24 a grand success especially after our long spell off-campus. We hope to see you all soon and we promise that you’re in for thrilling journey!",
 	"inductions_form_link": "https://forms.gle/8k65tRay37AeHRya8",
 	"teams": [
 		{
