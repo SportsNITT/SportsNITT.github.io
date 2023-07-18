@@ -1,41 +1,33 @@
 const coreContactDetails = [
-  
     {
-        name: "Gokul S",
-        position:"Sportsfete Chairman",
-        phone:"+91 72004 12300",
-        photo:'gokul'
-    },
-    {
-        name: "Gokulraaj V",
-        position:"Treasurer",
-        phone:"+91 75581 29079",
-        photo:'gokulraaj'
-    },
-    {
-        name: "Vaishnavi Lopamudra",
-        position:"Overall Coordinator",
-        phone:"+91 80742 59373",
-        photo:'vaishnavi'
-    },
-    {
-        name: "Pranav A Joshi",
+        name: "Anantha Kumar",
         position:"Sports secretary ",
-        phone:"+91 93071 13487",
-        photo:'pranav'
-    },
- 
-    {
-        name: "Manish KR",
-        position:"Organizing Head",
-        phone:"+91 94871 04816",
-        photo:'manish'
+        phone:"+91 70107 69509",
+        photo:'anantha'
     },
     {
-        name: "Abhishek P",
+        name: "Seenuvasa Ramanujam",
         position:"Associate sports secretary",
-        phone:"+91 81100 29946",
-        photo:'abishek'
+        phone:"+91 93443 55649",
+        photo:'seenuvasa'
+    },
+    {
+        name: "J Srikanth",
+        position:"Treasurer",
+        phone:"+91 84894 99099",
+        photo:'srikanth'
+    },
+    {
+        name: "Sriharshita Kasoju",
+        position:"Head, External Relations",
+        phone:"+91 6304 123 437",
+        photo:'sriharshita'
+    },
+    {
+        name: "Prasanna Venkadesh",
+        position:"Head, Contingent Relations",
+        phone:"+91 95668 82563",
+        photo:'prasanna'
     },
 ]
 

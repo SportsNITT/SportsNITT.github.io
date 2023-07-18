@@ -60,7 +60,7 @@ export default function NavbarMain() {
 						<Nav.Link
 							href='/'
 							style={{
-								color: activeLink == '' ? '#ff8b00' : 'white',
+								color: activeLink === '' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',
@@ -68,17 +68,17 @@ export default function NavbarMain() {
 						>
 							Home
 						</Nav.Link>
-						{/* <Nav.Link
+						<Nav.Link
 							href='/achievements'
 							style={{
-								color: activeLink == 'achievements' ? '#ff8b00' : 'white',
+								color: activeLink === 'achievements' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',
 							}}
 						>
 							Achievements
-						</Nav.Link> */}
+						</Nav.Link>
 						{/* <Nav.Link
 							href='/blogs'
 							style={{
@@ -93,7 +93,7 @@ export default function NavbarMain() {
 						<Nav.Link
 							href='/gallery'
 							style={{
-								color: activeLink == 'gallery' ? '#ff8b00' : 'white',
+								color: activeLink === 'gallery' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',
@@ -115,7 +115,7 @@ export default function NavbarMain() {
 						<Nav.Link
 							href='/teams'
 							style={{
-								color: activeLink == 'teams' ? '#ff8b00' : 'white',
+								color: activeLink === 'teams' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',
@@ -126,7 +126,7 @@ export default function NavbarMain() {
 						<Nav.Link
 							href='/sportsfete'
 							style={{
-								color: activeLink == 'sportsfete' ? '#ff8b00' : 'white',
+								color: activeLink === 'sportsfete' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',
@@ -138,7 +138,7 @@ export default function NavbarMain() {
 						<Nav.Link
 							href='/contacts'
 							style={{
-								color: activeLink == 'contacts' ? '#ff8b00' : 'white',
+								color: activeLink === 'contacts' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',

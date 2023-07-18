@@ -19,7 +19,7 @@ export default function Sportsfete() {
 		<div style={{ backgroundColor: "#222" }}>
 			<NavbarMain />
 			<Intro
-				title="SportsFete'23 Inductions"
+				title="SportsFete'24 Inductions"
 				desc={sportsfete.inductions_description}
 				formLink={sportsfete.inductions_form_link}
 			/>
@@ -42,10 +42,10 @@ export default function Sportsfete() {
 					color: colors.secondary,
 				}}
 			>
-				{"SportsFete'22 Aftermovie"}
+				{"SportsFete'23 Aftermovie"}
 			</h1>
 					<iframe  src={sportsfete["SF'22_aftermovie_link"]}  width={"100%"}
-				height={window.innerWidth <= 480 ? "360px" : "600px"} title='SportsFete`22 Aftermovie' allow="autoplay"></iframe>
+				height={window.innerWidth <= 480 ? "360px" : "600px"} title='SportsFete`23 Aftermovie' allow="autoplay"></iframe>
 				</div>
 				
 				<h1
@@ -59,8 +59,14 @@ export default function Sportsfete() {
 				{"Past Winners"}
 			</h1>
 				<Video
+					drive={sportsfete["SF'23_aftermovie_link"]}
+					title={"Sportsfete'23 Winner's"}
+
+					data={sportsfete.winners_2023}
+				/>
+				<Video
 					drive={sportsfete["SF'22_aftermovie_link"]}
-					title={"Sportsfete'22"}
+					title={"Sportsfete'22 Winner's"}
 
 					data={sportsfete.winners_2022}
 				/>
