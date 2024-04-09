@@ -7,6 +7,7 @@ export default function Contact({ contact, links }) {
 		<div style={{ marginTop: "10%", marginBottom: "10%" }}>
 			<Grid stackable columns={2}>
 				<Grid.Column
+					key="contact-column"
 					style={{
 						textAlign: "center",
 					}}
@@ -43,6 +44,7 @@ export default function Contact({ contact, links }) {
 					</Segment>
 				</Grid.Column>
 				<Grid.Column
+					key="follow-column"
 					style={{
 						textAlign: "center",
 					}}

@@ -30,7 +30,7 @@ export default function Team() {
 			>	
 				<h1 style={{ color: "white",fontSize: 50 }}>Sports Teams of NITT</h1>
 				<p style={{ color: "white"}}>Click or hover over each sport to know more.</p>
-				{open && showContent !== {} && (
+				{open && showContent !== null && (
 					<TeamsModal open={open} setOpen={setOpen} team={showContent} />
 				)}
 				<Grid
@@ -44,20 +44,20 @@ export default function Team() {
 					{teamsContent.map((team, i) => (
 						<Grid.Column key={i}>
 							<div
-								class="team-container"
+								className="team-container"
 								onClick={() => {
 									setTimeout(() => setOpen(true), 1000);
 
 									setShowContent(team);
 								}}
 							>
-								<div class="team-container-overlay"></div>
+								<div className="team-container-overlay"></div>
 								<img
 									class="team-container-image"
 									src={`${SPORTS_ICON_URL}${team.teamImgUrl}`}
 									alt={team.teamName}
 								/>
-								<div class="team-container-details fadeIn-bottom">
+								<div className="team-container-details fadeIn-bottom">
 									<h3>{team.teamName}</h3>
 								</div>
 							</div>

@@ -31,11 +31,10 @@ export default function TeamsModal({ open, setOpen, trigger, team }) {
 			</Modal.Header>
 			<Modal.Content image scrolling>
 				<Grid stackable columns={2} centered>
-					{team.captainNames.map((captName, i) => (
+					{team.capImgUrls.map((capImg, i) => (
 						<Grid.Column key={i}>
 							<Image
-								// src={`${CAPTAINS_IMG_URL}${capImg}`}
-								src=""
+								src={`${CAPTAINS_IMG_URL}${capImg}`}
 								width="100%"
 								centered
 							/>
@@ -48,7 +47,7 @@ export default function TeamsModal({ open, setOpen, trigger, team }) {
 									fontSize: "1.2em",
 								}}
 							>
-								{captName}
+								{team.captainNames[i]}
 							</p>
 						</Grid.Column>
 					))}

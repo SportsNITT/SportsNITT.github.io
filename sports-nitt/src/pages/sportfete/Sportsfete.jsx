@@ -33,7 +33,14 @@ export default function Sportsfete() {
 				<Sports data={sportsfete.sports} />
 				<Teams data={sportsfete.teams} />
 
-				<div style={{ margin: "5% 0" }}>
+				<div style={{ margin: "7% 0" }}>
+
+				<Video
+					drive={sportsfete["SF'23_aftermovie_link"]}
+					title={"Sportsfete'23 Winner's"}
+
+					data={sportsfete.winners_2023}
+				/>
 				<h1
 				style={{
 					fontSize: "2.5rem",
@@ -58,12 +65,6 @@ export default function Sportsfete() {
 			>
 				{"Past Winners"}
 			</h1>
-				<Video
-					drive={sportsfete["SF'23_aftermovie_link"]}
-					title={"Sportsfete'23 Winner's"}
-
-					data={sportsfete.winners_2023}
-				/>
 				<Video
 					drive={sportsfete["SF'22_aftermovie_link"]}
 					title={"Sportsfete'22 Winner's"}
