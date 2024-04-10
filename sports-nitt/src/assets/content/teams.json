@@ -1,6 +1,6 @@
 [
     {
-        "teamName": "Athletics ",
+        "teamName": "Athletics",
         "captainNames": [
             "Jashwanth",
             "Abhinav",
@@ -29,7 +29,7 @@
         ]
     },
     {
-        "teamName": "Basketball ",
+        "teamName": "Basketball",
         "captainNames": [
             "Advait",
             "Siddharth",
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "teamName": "Cricket ",
+        "teamName": "Cricket",
         "captainNames": [
             "Rahul Shankar",
             "Harshavardhan Reddy",
@@ -92,7 +92,7 @@
         ]
     },
     {
-        "teamName": "Football ",
+        "teamName": "Football",
         "captainNames": [
             "Parth",
             "Vishal",
@@ -108,7 +108,7 @@
         ]
     },
     {
-        "teamName": "Handball ",
+        "teamName": "Handball",
         "captainNames": [
             "Tharun akash",
             "Lohith",
@@ -124,7 +124,7 @@
         ]
     },
     {
-        "teamName": "Hockey ",
+        "teamName": "Hockey",
         "captainNames": [
             "Venkat",
             "Ravindernath",
@@ -157,7 +157,7 @@
             "Navya",
             "Swedha"
         ],
-        "teamImgUrl": "KhoKho%20Icon.svg",
+        "teamImgUrl": "Kho-Kho%20Icon.svg",
         "capImgUrls": [
             "KhoKho_Vamshi.jpg",
             "KhoKho_Kavin.jpg",
@@ -166,7 +166,7 @@
         ]
     },
     {
-        "teamName": "Powerlifting ",
+        "teamName": "Powerlifting",
         "captainNames": [
             "Yuvaraj Singh",
             "Dinesh Kumar Murugan",
@@ -182,7 +182,7 @@
         ]
     },
     {
-        "teamName": "Swimming ",
+        "teamName": "Swimming",
         "captainNames": [
             "Seenuvasa Ramanujam",
             "Muskan Sachan",
@@ -196,7 +196,7 @@
         ]
     },
     {
-        "teamName": "Table Tennis ",
+        "teamName": "Table Tennis",
         "captainNames": [
             "Shankar Jayaprakash",
             "Vishwas",
@@ -210,7 +210,7 @@
         ]
     },
     {
-        "teamName": "Martial arts ",
+        "teamName": "Martial arts",
         "captainNames": [
             "Oviya",
             "Varshith"
@@ -222,7 +222,7 @@
         ]
     },
     {
-        "teamName": "Tennis ",
+        "teamName": "Tennis",
         "captainNames": [
             "Kush",
             "Gunin Goel"
@@ -234,7 +234,7 @@
         ]
     },
     {
-        "teamName": "Volleyball ",
+        "teamName": "Volleyball",
         "captainNames": [
             "Dhanush",
             "Pranaw",
