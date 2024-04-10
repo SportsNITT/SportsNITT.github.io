@@ -1,1 +1,264 @@
-[{"teamName":"Athletics ","captainNames":["Jashwanth","Abhinav","Sriharshita"],"teamImgUrl":"Athletics%20Icon.svg","capImgUrls":["Athletics_Jashwanth.jpg"]},{"teamName":"Badminton","captainNames":["Rahul","Sarvesh","Harsha","Ridhi"],"teamImgUrl":"Badminton%20Icon.svg","capImgUrls":["Badminton_Rahul.jpg","Badminton_Harsha.jpg","Badminton_Sarvesh.jpg","Badminton_Ridhi.jpg"]},{"teamName":"Basketball ","captainNames":["Advait","Siddharth","Sudhanshu","Nithila Eswaran","Hensiha","Julia"],"teamImgUrl":"Basketball%20Icon.svg","capImgUrls":["Basketball_Advait.jpg","Basketball_Siddharth.jpg","Basketball_Sudhanshu.jpg","Basketball_NithilaEswaran.jpg","Basketball_Hensiha.jpg","Basketball_Julia.jpg"]},{"teamName":"Carrom","captainNames":["Sai Balaji","Ananya"],"teamImgUrl":"Carrom%20Icon.svg","capImgUrls":["Carrom_SaiBalaji.jpg"]},{"teamName":"Chess","captainNames":["Nikhil Sriram","Subbhu Karthik","Hasvitha","Tarunika","Kushi Choudhary"],"teamImgUrl":"Chess%20Icon.svg","capImgUrls":["Chess_NikhilSriram.jpg","Chess_SubbhuKarthik.jpg","Chess_Tarunika.jpg","Chess_Hasvitha.jpg","Chess_KushiChoudhary.jpg"]},{"teamName":"Cricket ","captainNames":["Rahul Shankar","Harshavardhan Reddy","Vamshi"],"teamImgUrl":"Cricket%20Icon.svg","capImgUrls":["Cricket_RahulShankar.jpg","Cricket_HarshavardhanReddy.jpg","Cricket_Vamshi.jpg"]},{"teamName":"Football ","captainNames":["Parth","Vishal","Athithi","Deepanshi"],"teamImgUrl":"Football%20Icon.svg","capImgUrls":["Football_Parth.jpg","Football_Vishal.jpg","Football_Athithi.jpg","Football_Deepanshi.jpg"]},{"teamName":"Handball ","captainNames":["Tharun akash","Lohith","Samuththa","Jhanavi"],"teamImgUrl":"Handball%20Icon.svg","capImgUrls":["Handball_Samuththa.jpg","Handball_Jhanavi.jpg","Handball_Tharunakash.jpg","Handball_Lohith.jpg"]},{"teamName":"Hockey ","captainNames":["Venkat","Ravindernath","Vedanta"],"teamImgUrl":"Hockey%20Icon.svg","capImgUrls":[]},{"teamName":"Kabbadi","captainNames":["Manikanta","Harshith","Sandhya","Anjali"],"teamImgUrl":"Kabbadi%20Icon.svg","capImgUrls":["Kabbadi_Harshith.jpg","Kabbadi_Manikanta.jpg","Kabbadi_Sandhya.jpg","Kabbadi_Anjali.jpg"]},{"teamName":"Kho Kho","captainNames":["Kavin","Vamshi","Navya","Swedha"],"teamImgUrl":"KhoKho%20Icon.svg","capImgUrls":["KhoKho_Vamshi.jpg","KhoKho_Kavin.jpg","KhoKho_Navya.jpg","KhoKho_Swedha.jpg"]},{"teamName":"Powerlifting ","captainNames":["Yuvaraj Singh","Dinesh Kumar Murugan","Dhanalakshmi","Bhavana"],"teamImgUrl":"Powerlifting%20Icon.svg","capImgUrls":["Powerlifting_DineshKumarMurugan.jpg","Powerlifting_YuvarajSingh.jpg","Powerlifting_Dhanalakshmi.jpg","Powerlifting_Bhavana.jpg"]},{"teamName":"Swimming ","captainNames":["Seenuvasa Ramanujam","Muskan Sachan","Prabhakaran"],"teamImgUrl":"Swimming%20Icon.svg","capImgUrls":["Swimming_Prabhakaran.jpg","Swimming_MuskanSachan.jpg"]},{"teamName":"Table Tennis ","captainNames":["Shankar Jayaprakash","Vishwas","Shreya","Ananya Sajan"],"teamImgUrl":"TableTennis%20Icon.svg","capImgUrls":["TableTennis_Vishwas.jpg"]},{"teamName":"Martial arts ","captainNames":["Oviya","Varshith"],"teamImgUrl":"Martialarts%20Icon.svg","capImgUrls":["Martialarts_Oviya.jpg","Martialarts_Varshith.jpg"]},{"teamName":"Tennis ","captainNames":["Kush","Gunin Goel"],"teamImgUrl":"Tennis%20Icon.svg","capImgUrls":["Tennis_Kush.jpg","Tennis_GuninGoel.jpg"]},{"teamName":"Volleyball ","captainNames":["Dhanush","Pranaw","Avinash Balaji","Padma Poorani","Prakalya"],"teamImgUrl":"Volleyball%20Icon.svg","capImgUrls":["Volleyball_Dhanush.jpg","Volleyball_Prakalya.jpg","Volleyball_PadmaPoorani.jpg"]},{"teamName":"Yoga","captainNames":["Nayakram","Harshitha Reddy"],"teamImgUrl":"Yoga%20Icon.svg","capImgUrls":["Yoga_Nayakram.jpg"]}]
+[
+    {
+        "teamName": "Athletics ",
+        "captainNames": [
+            "Jashwanth",
+            "Abhinav",
+            "Sriharshita"
+        ],
+        "teamImgUrl": "Athletics%20Icon.svg",
+        "capImgUrls": [
+            "Athletics_Jashwanth.jpg",
+            "Althletics_Sriharshita.jpg"
+        ]
+    },
+    {
+        "teamName": "Badminton",
+        "captainNames": [
+            "Rahul",
+            "Sarvesh",
+            "Harsha",
+            "Ridhi"
+        ],
+        "teamImgUrl": "Badminton%20Icon.svg",
+        "capImgUrls": [
+            "Badminton_Rahul.jpg",
+            "Badminton_Harsha.jpg",
+            "Badminton_Sarvesh.jpg",
+            "Badminton_Ridhi.jpg"
+        ]
+    },
+    {
+        "teamName": "Basketball ",
+        "captainNames": [
+            "Advait",
+            "Siddharth",
+            "Sudhanshu",
+            "Nithila Eswaran",
+            "Hensiha",
+            "Julia"
+        ],
+        "teamImgUrl": "Basketball%20Icon.svg",
+        "capImgUrls": [
+            "Basketball_Advait.jpg",
+            "Basketball_Siddharth.jpg",
+            "Basketball_Sudhanshu.jpg",
+            "Basketball_NithilaEswaran.jpg",
+            "Basketball_Hensiha.jpg",
+            "Basketball_Julia.jpg"
+        ]
+    },
+    {
+        "teamName": "Carrom",
+        "captainNames": [
+            "Sai Balaji",
+            "Ananya"
+        ],
+        "teamImgUrl": "Carrom%20Icon.svg",
+        "capImgUrls": [
+            "Carrom_SaiBalaji.jpg"
+        ]
+    },
+    {
+        "teamName": "Chess",
+        "captainNames": [
+            "Nikhil Sriram",
+            "Subbhu Karthik",
+            "Hasvitha",
+            "Tarunika",
+            "Kushi Choudhary"
+        ],
+        "teamImgUrl": "Chess%20Icon.svg",
+        "capImgUrls": [
+            "Chess_NikhilSriram.jpg",
+            "Chess_SubbhuKarthik.jpg",
+            "Chess_Tarunika.jpg",
+            "Chess_Hasvitha.jpg",
+            "Chess_KushiChoudhary.jpg"
+        ]
+    },
+    {
+        "teamName": "Cricket ",
+        "captainNames": [
+            "Rahul Shankar",
+            "Harshavardhan Reddy",
+            "Vamshi"
+        ],
+        "teamImgUrl": "Cricket%20Icon.svg",
+        "capImgUrls": [
+            "Cricket_RahulShankar.jpg",
+            "Cricket_HarshavardhanReddy.jpg",
+            "Cricket_Vamshi.jpg"
+        ]
+    },
+    {
+        "teamName": "Football ",
+        "captainNames": [
+            "Parth",
+            "Vishal",
+            "Athithi",
+            "Deepanshi"
+        ],
+        "teamImgUrl": "Football%20Icon.svg",
+        "capImgUrls": [
+            "Football_Parth.jpg",
+            "Football_Vishal.jpg",
+            "Football_Athithi.jpg",
+            "Football_Deepanshi.jpg"
+        ]
+    },
+    {
+        "teamName": "Handball ",
+        "captainNames": [
+            "Tharun akash",
+            "Lohith",
+            "Samuththa",
+            "Jhanavi"
+        ],
+        "teamImgUrl": "Handball%20Icon.svg",
+        "capImgUrls": [
+            "Handball_Samuththa.jpg",
+            "Handball_Jhanavi.jpg",
+            "Handball_Tharunakash.jpg",
+            "Handball_Lohith.jpg"
+        ]
+    },
+    {
+        "teamName": "Hockey ",
+        "captainNames": [
+            "Venkat",
+            "Ravindernath",
+            "Vedanta"
+        ],
+        "teamImgUrl": "Hockey%20Icon.svg",
+        "capImgUrls": ["Hockey_Vedanta.jpg"]
+    },
+    {
+        "teamName": "Kabbadi",
+        "captainNames": [
+            "Manikanta",
+            "Harshith",
+            "Sandhya",
+            "Anjali"
+        ],
+        "teamImgUrl": "Kabbadi%20Icon.svg",
+        "capImgUrls": [
+            "Kabbadi_Harshith.jpg",
+            "Kabbadi_Manikanta.jpg",
+            "Kabbadi_Sandhya.jpg",
+            "Kabbadi_Anjali.jpg"
+        ]
+    },
+    {
+        "teamName": "Kho Kho",
+        "captainNames": [
+            "Kavin",
+            "Vamshi",
+            "Navya",
+            "Swedha"
+        ],
+        "teamImgUrl": "KhoKho%20Icon.svg",
+        "capImgUrls": [
+            "KhoKho_Vamshi.jpg",
+            "KhoKho_Kavin.jpg",
+            "KhoKho_Navya.jpg",
+            "KhoKho_Swedha.jpg"
+        ]
+    },
+    {
+        "teamName": "Powerlifting ",
+        "captainNames": [
+            "Yuvaraj Singh",
+            "Dinesh Kumar Murugan",
+            "Dhanalakshmi",
+            "Bhavana"
+        ],
+        "teamImgUrl": "Powerlifting%20Icon.svg",
+        "capImgUrls": [
+            "Powerlifting_DineshKumarMurugan.jpg",
+            "Powerlifting_YuvarajSingh.jpg",
+            "Powerlifting_Dhanalakshmi.jpg",
+            "Powerlifting_Bhavana.jpg"
+        ]
+    },
+    {
+        "teamName": "Swimming ",
+        "captainNames": [
+            "Seenuvasa Ramanujam",
+            "Muskan Sachan",
+            "Prabhakaran"
+        ],
+        "teamImgUrl": "Swimming%20Icon.svg",
+        "capImgUrls": [
+            "Swimming_Prabhakaran.jpg",
+            "Swimming_MuskanSachan.jpg",
+            "Swimming_Sennuvasa.jpg"
+        ]
+    },
+    {
+        "teamName": "Table Tennis ",
+        "captainNames": [
+            "Shankar Jayaprakash",
+            "Vishwas",
+            "Shreya",
+            "Ananya Sajan"
+        ],
+        "teamImgUrl": "TableTennis%20Icon.svg",
+        "capImgUrls": [
+            "TableTennis_Vishwas.jpg",
+            "TableTennis_AnanyaSajan.jpg"
+        ]
+    },
+    {
+        "teamName": "Martial arts ",
+        "captainNames": [
+            "Oviya",
+            "Varshith"
+        ],
+        "teamImgUrl": "Martialarts%20Icon.svg",
+        "capImgUrls": [
+            "Martialarts_Oviya.jpg",
+            "Martialarts_Varshith.jpg"
+        ]
+    },
+    {
+        "teamName": "Tennis ",
+        "captainNames": [
+            "Kush",
+            "Gunin Goel"
+        ],
+        "teamImgUrl": "Tennis%20Icon.svg",
+        "capImgUrls": [
+            "Tennis_Kush.jpg",
+            "Tennis_GuninGoel.jpg"
+        ]
+    },
+    {
+        "teamName": "Volleyball ",
+        "captainNames": [
+            "Dhanush",
+            "Pranaw",
+            "Avinash Balaji",
+            "Padma Poorani",
+            "Prakalya"
+        ],
+        "teamImgUrl": "Volleyball%20Icon.svg",
+        "capImgUrls": [
+            "Volleyball_Dhanush.jpg",
+            "Volleyball_Prakalya.jpg",
+            "Volleyball_PadmaPoorani.jpg",
+            "Volleyball_Pranaw.jpg"
+        ]
+    },
+    {
+        "teamName": "Yoga",
+        "captainNames": [
+            "Nayakram",
+            "Harshitha Reddy"
+        ],
+        "teamImgUrl": "Yoga%20Icon.svg",
+        "capImgUrls": [
+            "Yoga_Nayakram.jpg"
+        ]
+    }
+]
