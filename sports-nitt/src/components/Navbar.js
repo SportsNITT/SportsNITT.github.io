@@ -68,7 +68,7 @@ export default function NavbarMain() {
 						>
 							Home
 						</Nav.Link>
-						<Nav.Link
+						{/*<Nav.Link
 							href='/achievements'
 							style={{
 								color: activeLink === 'achievements' ? '#ff8b00' : 'white',
@@ -78,7 +78,7 @@ export default function NavbarMain() {
 							}}
 						>
 							Achievements
-						</Nav.Link>
+						</Nav.Link>}
 						{/* <Nav.Link
 							href='/blogs'
 							style={{
