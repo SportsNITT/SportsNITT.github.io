@@ -60,7 +60,7 @@ export default function NavbarMain() {
 						<Nav.Link
 							href='/'
 							style={{
-								color: activeLink == '' ? '#ff8b00' : 'white',
+								color: activeLink === '' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',
@@ -71,7 +71,7 @@ export default function NavbarMain() {
 						<Nav.Link
 							href='/achievements'
 							style={{
-								color: activeLink == 'achievements' ? '#ff8b00' : 'white',
+								color: activeLink === 'achievements' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',
@@ -79,7 +79,7 @@ export default function NavbarMain() {
 						>
 							Achievements
 						</Nav.Link>
-						<Nav.Link
+						{/* <Nav.Link
 							href='/blogs'
 							style={{
 								color: activeLink == 'blogs' ? '#ff8b00' : 'white',
@@ -89,11 +89,11 @@ export default function NavbarMain() {
 							}}
 						>
 							Blogs
-						</Nav.Link>
+						</Nav.Link> */}
 						<Nav.Link
 							href='/gallery'
 							style={{
-								color: activeLink == 'gallery' ? '#ff8b00' : 'white',
+								color: activeLink === 'gallery' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',
@@ -101,7 +101,7 @@ export default function NavbarMain() {
 						>
 							Gallery
 						</Nav.Link>
-						<Nav.Link
+						{/* <Nav.Link
 							href='/infrastructure'
 							style={{
 								color: activeLink == 'infrastructure' ? '#ff8b00' : 'white',
@@ -111,11 +111,11 @@ export default function NavbarMain() {
 							}}
 						>
 							Infrastructure
-						</Nav.Link>
+						</Nav.Link> */}
 						<Nav.Link
 							href='/teams'
 							style={{
-								color: activeLink == 'teams' ? '#ff8b00' : 'white',
+								color: activeLink === 'teams' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',
@@ -126,13 +126,25 @@ export default function NavbarMain() {
 						<Nav.Link
 							href='/sportsfete'
 							style={{
-								color: activeLink == 'sportsfete' ? '#ff8b00' : 'white',
+								color: activeLink === 'sportsfete' ? '#ff8b00' : 'white',
 								paddingInline: 30,
 								fontFamily: 'Open Sans',
 								fontSize: '1.3em',
 							}}
 						>
 							Sportsfete
+						</Nav.Link>
+
+						<Nav.Link
+							href='/contacts'
+							style={{
+								color: activeLink === 'contacts' ? '#ff8b00' : 'white',
+								paddingInline: 30,
+								fontFamily: 'Open Sans',
+								fontSize: '1.3em',
+							}}
+						>
+							Contacts
 						</Nav.Link>
 					</Nav>
 				</Navbar.Collapse>

@@ -7,6 +7,7 @@ export default function Contact({ contact, links }) {
 		<div style={{ marginTop: "10%", marginBottom: "10%" }}>
 			<Grid stackable columns={2}>
 				<Grid.Column
+					key="contact-column"
 					style={{
 						textAlign: "center",
 					}}
@@ -34,12 +35,16 @@ export default function Contact({ contact, links }) {
 								fontFamily: "Open Sans",
 							}}
 						>
-							Sportsfete chairman - {contact.name} <br />
-							Phone - {contact.contact} <br />
+						    Email:&nbsp;
+							<a href='mailto:sports.nitt@gmail.com'>
+								sports.nitt@gmail.com
+							</a> <br />
+							
 						</p>
 					</Segment>
 				</Grid.Column>
 				<Grid.Column
+					key="follow-column"
 					style={{
 						textAlign: "center",
 					}}

@@ -85,10 +85,10 @@ export default function Gallery() {
 							alignItems: 'center',
 						}}
 					>
-						<div class='gallery_grid'>
+						<div className='gallery_grid'>
 							{imageData &&
 								imageData.map((ele, i) => (
-									<div class='gallery_grid__item'>
+									<div className='gallery_grid__item'>
 										<img
 											src={ele.src}
 											alt={ele.alt}

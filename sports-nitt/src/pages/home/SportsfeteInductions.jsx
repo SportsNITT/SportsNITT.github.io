@@ -29,7 +29,7 @@ export default function SportsfeteInductions() {
 			</h1>
 			<p
 				style={{
-					textAlign: "center",
+					textAlign: "justify",
 					wordWrap: "break-word",
 					color: colors.grey,
 					fontSize: "1.2em",

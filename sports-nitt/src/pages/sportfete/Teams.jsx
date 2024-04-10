@@ -11,6 +11,7 @@ const Teams = ({ data }) => (
 	>
 		<h1
 			style={{
+				fontSize: "2.5em",
 				textAlign: "center",
 				color: colors.secondary,
 			}}
