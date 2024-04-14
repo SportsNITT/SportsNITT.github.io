@@ -26,7 +26,8 @@ const EVENTS = [
 	"Spardha '18",
 	"Spardha '19",
 	"Sportsfete '19",
-	"Sportsfete '22"
+	"Sportsfete '22",
+	"Sportsfete '23"
 ];
 
 export default Event = ({ eventName, setEventName }) => {
